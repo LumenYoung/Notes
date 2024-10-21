@@ -10,9 +10,9 @@ This small space serves as the primary platform for sharing my public notes. In 
 
 Whether it's short notes or long-form writing, I firmly believe that creating output is the first step in ensuring I've truly learned something. Inspired by [Ellie Huxtable](https://ellie.wtf/), I've adopted a structure that organizes my posts into four categories: 
 
-1) **Posts** for long-form essays and in-depth writing,  
-2) **Projects** for anything related to ongoing or completed work,  
-3) **Life** for personal reflections and experiences,  
-4) **Notes** for shorter, more frequent updates capturing my daily explorations and discoveries.
+1) [Posts](/posts) for long-form essays and in-depth writing,  
+2) [Projects](/projects) for anything related to ongoing or completed work,  
+3) [Life](/life) for personal reflections and experiences,  
+4) [Notes](/notes) for shorter, more frequent updates capturing my daily explorations and discoveries.
 
 This content structure encompasses everything I might want to share without restricting me to only polished or meticulously crafted pieces. In fact, the pursuit of perfection can often drain the joy out of blogging, and I shall definitely avoid this trap.
