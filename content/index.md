@@ -4,4 +4,11 @@ title: Welcome to Lumen's Note
 
 This small space serves as the primary platform for sharing my public notes. In the past, I've experimented with different setups—first with my WordPress blog (now private), then my [xlog blog](https://xlog.lumeny.io/), and later my [personal website built with Hexo](https://www.lumeny.io/). However, each of these fell short of meeting my expectations in one way or another. Now, I'm pleased to have found Quartz, which satisfies nearly all my criteria for an ideal tool - a simple editing process and has the added benefit of helping me gradually develop a well-interconnected knowledge base.
 
-No matter short notes or long-form writings, I always believe that outputing is the first step I make sure that I learnt something. I follow the practice from [Ellie Huxtable](https://ellie.wtf/) to seperate my posts into four categories: 1) Posts for long-form writing, 2) Projects for project related things, 3) Life about my personal life and sensations and 4) Notes for the short but frequent updates from my day to day explorations.
+Whether it's short notes or long-form writing, I firmly believe that creating output is the first step in ensuring I've truly learned something. Inspired by [Ellie Huxtable](https://ellie.wtf/), I've adopted a structure that organizes my posts into four categories: 
+
+1) **Posts** for long-form essays and in-depth writing,  
+2) **Projects** for anything related to ongoing or completed work,  
+3) **Life** for personal reflections and experiences,  
+4) **Notes** for shorter, more frequent updates capturing my daily explorations and discoveries.
+
+This framework helps me stay organized while allowing me to document a wide range of thoughts and endeavors.
