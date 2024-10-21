@@ -12,8 +12,9 @@ const config: QuartzConfig = {
     pageTitleSuffix: "Live my live consciously",
     enableSPA: true,
     enablePopovers: true,
-    analytics: { 
-      provider: 'google', tagId: 'G-9Z03XJTGY3' 
+    analytics: {
+      provider: "google",
+      tagId: "G-9Z03XJTGY3",
     },
     locale: "en-US",
     baseUrl: "notes.lumeny.io",
@@ -72,7 +73,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Latex({ renderEngine: "mathjax" }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
