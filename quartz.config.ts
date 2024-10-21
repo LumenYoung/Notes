@@ -9,22 +9,23 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "🕯 Lumen's Notes",
-    pageTitleSuffix: "",
+    pageTitleSuffix: "Live my live consciously",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
+    analytics: { 
+      provider: 'google', tagId: 'G-9Z03XJTGY3' 
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "notes.lumeny.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        // header: "Schibsted Grotesk",
+        header: "Satisfy",
+        body: "Ysabeau",
         code: "IBM Plex Mono",
       },
       colors: {
