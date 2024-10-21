@@ -11,4 +11,4 @@ Whether it's short notes or long-form writing, I firmly believe that creating ou
 3) **Life** for personal reflections and experiences,  
 4) **Notes** for shorter, more frequent updates capturing my daily explorations and discoveries.
 
-This framework helps me stay organized while allowing me to document a wide range of thoughts and endeavors.
+This content structure encompasses everything I might want to share without restricting me to only polished or meticulously crafted pieces. In fact, the pursuit of perfection can often drain the joy out of blogging, and I shall definitely avoid this trap.
