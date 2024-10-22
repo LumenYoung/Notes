@@ -18,9 +18,9 @@ tags:
 import torch
 
 def mean_std_normalize(tensor):
-mean = tensor.mean()
-std = tensor.std()
-return (tensor - mean) / std
+  mean = tensor.mean()
+  std = tensor.std()
+  return (tensor - mean) / std
 
 # Step 1: Generate a random PyTorch tensor
 
