@@ -26,7 +26,8 @@ const config: QuartzConfig = {
       typography: {
         // header: "Schibsted Grotesk", // Original one
         // header: "Satisfy",
-        header: "Orbitron",
+        // header: "Orbitron", // Not a good fit with Ysabeau
+        header: "Philosopher",
         body: "Ysabeau",
         code: "IBM Plex Mono",
       },
