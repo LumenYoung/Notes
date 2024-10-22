@@ -1,5 +1,5 @@
 ---
-id: index
+id: Dedicated Posts
 aliases: []
 tags: []
 ---

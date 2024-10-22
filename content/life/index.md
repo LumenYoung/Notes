@@ -1,5 +1,5 @@
 ---
-id: index
+id: My Life
 aliases: []
 tags: []
 ---
