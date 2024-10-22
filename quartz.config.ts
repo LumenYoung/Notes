@@ -28,7 +28,8 @@ const config: QuartzConfig = {
         // header: "Satisfy",
         // header: "Orbitron", // Not a good fit with Ysabeau
         // header: "Philosopher", // 挺好的，但是头部的弯曲太大了，降低的可读性
-        header: "Courgette",
+        // header: "Courgette",
+        header: "Sofia", // 可以尝试，花体且可读性不差
         body: "Ysabeau",
         code: "IBM Plex Mono",
       },
