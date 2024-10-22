@@ -1,5 +1,5 @@
 ---
-id: index
+id: Personal Projects
 aliases: []
 tags: []
 ---
