@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       tagId: "G-9Z03XJTGY3",
     },
     locale: "en-US",
-    baseUrl: "notes.lumeny.io",
+    baseUrl: "www.lumeny.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
