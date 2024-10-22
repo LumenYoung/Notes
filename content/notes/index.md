@@ -1,5 +1,5 @@
 ---
-id: index
+id: Notes
 aliases: []
 tags: []
 ---
