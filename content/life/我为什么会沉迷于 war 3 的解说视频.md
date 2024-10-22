@@ -1,6 +1,6 @@
 ---
 aliases: []
-tags: [thoughts, against-addiction, flow, productivity]
+tags: [thoughts, against-addiction, flow, productivity, 中文]
 title: 我为什么会沉迷于 war 3 的解说视频
 date: 2024-01-28 12:48:39
 updated: 2024-01-28 21:19:57
@@ -8,9 +8,9 @@ slug: ""
 description: ""
 noteId_x: 37
 category: 中文
-create_time: 1/28/2024, 12:48:39 PM
-update_time: 1/28/2024, 1:01:11 PM
-publish_time: 1/28/2024, 12:51:52 PM
+create_time: 2024-01-28 12:48:39 PM
+update_time: 1/28/2024 1:01:11 PM
+publish_time: 1/28/2024 12:51:52 PM
 ---
 
 最近这两天我非常沉迷 YouTube 上面的魔兽争霸视频。每个可能都有一个小时的时长，但我每次看着都乐此不疲，可以看上一整天。虽然我已经有十几年都没有玩过 war3 了，我对它里面的机制从一开始也不了解，按理说它不应该有这么大的魔力让我可以如此长时间的被吸引到。
