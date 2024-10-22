@@ -27,7 +27,8 @@ const config: QuartzConfig = {
         // header: "Schibsted Grotesk", // Original one
         // header: "Satisfy",
         // header: "Orbitron", // Not a good fit with Ysabeau
-        header: "Philosopher",
+        // header: "Philosopher", // 挺好的，但是头部的弯曲太大了，降低的可读性
+        header: "Courgette",
         body: "Ysabeau",
         code: "IBM Plex Mono",
       },
