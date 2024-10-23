@@ -37,7 +37,15 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
         { Component: Component.DesktopOnly(Component.Links()) },
-        { Component: Component.DesktopOnly(Component.RecentNotes()) },
+        {
+          Component: Component.DesktopOnly(
+            Component.RecentNotes({
+              filter: (file) => !file.slug?.endsWith("/"),
+              limit: 5,
+              showTags: true,
+            }),
+          ),
+        },
         { Component: Component.DesktopOnly(Component.Explorer()) },
       ],
     }),
