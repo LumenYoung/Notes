@@ -28,7 +28,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Links()),
-    Component.DesktopOnly(Component.RecentNotes()),
+    Component.DesktopOnly(Component.RecentNotes({
+      filter: (file) => !file.slug?.endsWith("/"),
+      limit: 5,
+      showTags: true
+    })),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
