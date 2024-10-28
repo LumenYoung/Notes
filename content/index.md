@@ -18,4 +18,6 @@ Whether it's short notes or long-form writing, I firmly believe that creating ou
 3. [Life](/life) for personal reflections and experiences,
 4. [Notes](/notes) for shorter, more frequent updates capturing my daily explorations and discoveries.
 
+Additionally, I also write short notes on the interesting paper I read at [Papers](/papers), I hope those knowledge can systematically accumulate, give me insights into the research fields I'm curious at. 
+
 This content structure encompasses everything I might want to share without restricting me to only polished or meticulously crafted pieces. In fact, the pursuit of perfection can often drain the joy out of blogging, and I shall definitely avoid this trap.
