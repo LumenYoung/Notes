@@ -45,6 +45,12 @@ export default ((userOpts?: Partial<Options>) => {
             </h3>
             <i>Life without project is a life without active structure</i>
           </li>
+          <li>
+            <h3 style={{ marginTop: 0, marginBottom: 0 }}>
+              <a href="/papers">Papers</a>
+            </h3>
+            <i>Scientific Readings that once captured my interest</i>
+          </li>
         </ul>
       </div>
     )
