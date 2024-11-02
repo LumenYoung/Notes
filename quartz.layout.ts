@@ -85,4 +85,22 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [],
+  afterBody: [
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        // from data-repo
+        repo: "LumenYoung/Notes",
+        // from data-repo-id
+        repoId: "R_kgDONDxfsA",
+        // from data-category
+        category: "Comments",
+        // from data-category-id
+        categoryId: "DIC_kwDONDxfsM4Cj7Qu",
+        mapping: "pathname",
+        reactionsEnabled: true,
+        inputPosition: "bottom",
+      },
+    }),
+  ],
 }
