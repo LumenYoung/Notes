@@ -1,14 +1,17 @@
 ---
+id: Web Environment Integrity is gone, but the Android is more locked down than ever
 aliases: []
-tags: [opinion, android]
-title: Web Environment Integrity is gone, but the Android is more locked down than ever
-description: ""
-noteId_x: 27
+tags:
+  - opinion
+  - android
 category: English
 create_time: 11/9/2023, 10:56:24 AM
-update_time: 11/9/2023, 2:15:45 PM
-publish_time: 11/9/2023, 11:44:29 AM
 date: 2024-01-10 00:00:24
+description: ""
+noteId_x: 27
+publish_time: 11/9/2023, 11:44:29 AM
+title: Web Environment Integrity is gone, but the Android is more locked down than ever
+update_time: 11/9/2023, 2:15:45 PM
 updated: 2024-01-10 00:22:17
 ---
 
