@@ -96,7 +96,7 @@ export const defaultListPageLayout: PageLayout = {
         categoryId: "DIC_kwDONDxfsM4Cj7Qu",
         mapping: "pathname",
         reactionsEnabled: true,
-        inputPosition: "bottom",
+        inputPosition: "top",
       },
     }),
   ],
