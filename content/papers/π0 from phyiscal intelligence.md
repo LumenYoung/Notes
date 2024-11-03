@@ -47,4 +47,4 @@ title: π0 from Phyiscal Intelligence
 
 这样看起来 VLA 这条路做出来的 agent 的效果真的非常能打，demo 制作的效果让我觉得可以胜任的家居机器人的场景了，但真正的困难还在硬件集成和成本降低之类的问题上，现在我们还远没有能够将机器人抬到普通人的家里面的能力呢。但在 intelligence 这个部分，我相信不会之后最大的 roadblocker。
 
-[^1]: 一个 base 在湾区的，聚焦 embodied AI 的 foundation model 的初创。 BTW 很喜欢他们现在官网和 domain 的风格 - Hacker News 的极简极客风 + pi 作为域名，如果能一直保持这样的风格那可真的太酷了。
+[^1]: 一个 base 在湾区的，聚焦 embodied AI 的 foundation model 的初创。 BTW 很喜欢他们现在[官网](https://www.314159.com/)的 domain (314159.com) 和风格 - Hacker News 的极简极客风 + pi 作为域名，如果能一直保持这样的风格那可真的太酷了。
