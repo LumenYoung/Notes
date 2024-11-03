@@ -11,7 +11,7 @@ title: π0 from Phyiscal Intelligence
 
 今天看到了这篇来自于 Physical Intelligence [^1] 的 [博客](https://www.314159.com/blog/pi0)，讲述他们新训练出来的 Vision-Language-Action model (VLA)。其中他们确实完成了非常多很有意思的在家居中使用的 task。我们来通过 blog 中的信息看看他们的技术路线。
 
-## 基本信息
+## Basic Info from the Blogpost
 
 - 模型架构:
 
