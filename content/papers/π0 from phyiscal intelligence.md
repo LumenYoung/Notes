@@ -14,7 +14,7 @@ title: π0 from Phyiscal Intelligence
 
 - 模型架构:
 
-  - 基于 3B 的一个预训练好的 VLM (大概率是 llama3)，用 flow-matching 的方式来生成 action 数据。
+  - 基于 3B 的一个预训练好的 VLM ，用 flow-matching 的方式来生成 action 数据。
   - 还有一个 470M 参数的小型版本 π0-small。
 
 - 训练数据:
