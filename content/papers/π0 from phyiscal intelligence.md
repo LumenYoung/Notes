@@ -40,7 +40,7 @@ title: π0 from Phyiscal Intelligence
 
 ## Summary
 
-总体看下来，还是类似于 OpenVLA 这样的工作，区别在于 OpenVLA 直接用 tokenizer 来分解动作，而这篇文章中使用了现在常用的 action generation 的方式来生成动作 (提到的 flow-matching 理解为一种更 fast 的 diffusion policy)。这样的 approach 对于 生成的轨迹质量和精度会高于 OpenVLA 自然也是应该的。
+总体看下来，还是类似于 OpenVLA 这样的工作，区别在于 OpenVLA 直接用 tokenizer 来分解动作，而这篇文章中使用了现在常用的 action generation 的方式来生成动作 (提到的 flow-matching 理解为一种更 fast 的 diffusion policy)。合理的猜想是将生成出来的 action embedding 加上当前的 observation pass 给 diffusion policy 来生成 action trajectory，这样 llm 的 inference frequency 加上 diffusion policy 的 inference speed 在这些 task 上就能够产生足够丝滑的 action。这种 approach 对于 生成的轨迹质量和精度会高于 OpenVLA 自然也是应该的。
 
 这样看起来 VLA 这条路做出来的 agent 的效果真的非常能打，demo 制作的效果让我觉得可以胜任的家居机器人的场景了，但真正的困难还在硬件集成和成本降低之类的问题上，现在我们还远没有能够将机器人抬到普通人的家里面的能力呢。但在 intelligence 这个部分，我相信不会之后最大的 roadblocker。
 
