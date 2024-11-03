@@ -35,7 +35,7 @@ title: π0 from Phyiscal Intelligence
 
 ## Flow-matching?
 
-我第一个不理解的部分是 flow matching 这部分怎么运用在了 action generation 上面，以及这样做的意义是什么。在搜索中我找到了 [这篇今年八月的 arxiv](https://arxiv.org/abs/2403.10672) 提到了如何用 flow-matching 来实现控制，总体上来讲这篇文章中提到的好处有 1）geometry-aware 2）速度更快 3）action 更加 smooth。
+第一个不太理解的部分是文中提到的 flow matching 怎么运用在了 action generation 上面，以及这样做的意义是什么。一番检索我找到了 [这篇今年八月的 arxiv](https://arxiv.org/abs/2403.10672) 提到了如何用 flow-matching 来实现 action generation，在这篇文章中提到的好处有 1）geometry-aware 2）速度更快 3）action 更加 smooth。
 
 整体上描述的好处基本上与 phyiscal intelligence 在博客中提到的一致，可以猜测他们的运用方式是一样的 - 用 Flow-matching 来替换 diffusion 过程。但是提到的这篇八月份的 KIT 的论文虽然选择 Diffusion Policy 作为 baseline，但是连一个机器人上的实机测试都没有，结论和方法的可信度尚不可知，只能作为一个参考。
 
@@ -43,7 +43,7 @@ title: π0 from Phyiscal Intelligence
 
 总体看下来，还是类似于 OpenVLA 这样的工作，区别在于 OpenVLA 直接用 tokenizer 来分解动作，而这篇文章中使用了现在常用的 action generation 的方式来生成动作 (提到的 flow-matching 理解为一种更 fast 的 diffusion policy)。
 
-合理的猜想是将生成出来的 action embedding 加上当前的 observation pass 给 diffusion policy 来生成 action trajectory，这样 llm 的 inference frequency 加上 diffusion policy 的 inference speed 在这些 task 上就能够产生足够丝滑的 action。这种 approach 对于 生成的轨迹质量和精度会高于 OpenVLA 自然也是应该的。
+合理的猜想是将生成出来的 action embedding 加上当前的 observation pass 给 diffusion policy 来生成 action trajectory，这样 llm 的 inference frequency * diffusion policy 的 action sequence inference 在这些 task 上就能够产生足够丝滑的 action。这种 approach 对于 生成的轨迹质量和精度会高于 OpenVLA 自然也是应该的。在 [[Talk from Cheng Chi]] 中也提到过，现在 SOTA 的 action models 基本都是继续 SOTA 的 generative model 的方法，相比于 naive 的直接 detokenize action 是一个不小的提升。
 
 这样看起来 VLA 这条路做出来的 agent 的效果真的非常能打，demo 制作的效果让我觉得可以胜任的家居机器人的场景了，但真正的困难还在硬件集成和成本降低之类的问题上，现在我们还远没有能够将机器人抬到普通人的家里面的能力呢。但在 intelligence 这个部分，我相信不会之后最大的 roadblocker。
 
