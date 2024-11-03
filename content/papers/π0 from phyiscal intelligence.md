@@ -36,7 +36,7 @@ title: π0 from Phyiscal Intelligence
 
 我第一个不理解的部分是 flow matching 这部分怎么运用在了 action generation 上面，以及这样做的意义是什么。在搜索中我找到了 [这篇今年八月的 arxiv](https://arxiv.org/abs/2403.10672) 提到了如何用 flow-matching 来实现控制，总体上来讲这篇文章中提到的好处有 1）geometry-aware 2）速度更快 3）action 更加 smooth。
 
-整体上描述的好处基本上与 phyiscal intelligence 在博客中提到的一致，可以猜测他们的运用方式是一样的 - 用 Flow-matching 来替换 diffusion 过程。但是提到的这篇八月份的 KIT 的论文虽然选择 Diffusion Policy 作为 baseline，但是连一个机器人上的实机测试都没有，结论和方法的可信度我还尚不可知，只能作为一个参考。
+整体上描述的好处基本上与 phyiscal intelligence 在博客中提到的一致，可以猜测他们的运用方式是一样的 - 用 Flow-matching 来替换 diffusion 过程。但是提到的这篇八月份的 KIT 的论文虽然选择 Diffusion Policy 作为 baseline，但是连一个机器人上的实机测试都没有，结论和方法的可信度尚不可知，只能作为一个参考。
 
 ## Summary
 
@@ -44,4 +44,4 @@ title: π0 from Phyiscal Intelligence
 
 这样看起来 VLA 这条路做出来的 agent 的效果真的非常能打，demo 制作的效果让我觉得可以胜任的家居机器人的场景了，但真正的困难还在硬件集成和成本降低之类的问题上，现在我们还远没有能够将机器人抬到普通人的家里面的能力呢。但在 intelligence 这个部分，我相信不会之后最大的 roadblocker。
 
-[^1]: 一个 base 在湾区的，聚焦 embodied AI 的 foundation model 的初创。 BTW 很喜欢他们现在官网的风格 - Hacker News 的极简极客风，但估计之后肯定会改版。
+[^1]: 一个 base 在湾区的，聚焦 embodied AI 的 foundation model 的初创。 BTW 很喜欢他们现在官网的风格 - Hacker News 的极简极客风，如果能一直保持这样的风格那可真的太酷了。
