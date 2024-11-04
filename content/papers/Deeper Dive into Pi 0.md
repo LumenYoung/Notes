@@ -44,6 +44,6 @@ Interestingly, the `diffusion horizon` in their flow matching method is 50. This
 
 ## Wrap it up
 
-I think Physical Intelligence really has a good work on the VLA foundation model. They are learning from all the frontfields in the recent progresses: 1) they are predicting action sequence instead of action and 2) they are using generative model to handle the trajectory creation and 3) they are using larger pretraining dataset to enhance the generalization ability.
+I think Physical Intelligence's π0 is really a good work on the VLA foundation model. They are learning from all the frontfields in the recent progresses: 1) they are predicting action sequence instead of action and 2) they are using generative model to handle the trajectory creation and 3) they are using larger pretraining dataset to enhance the generalization ability.
 
 The most brilliant part is this integration between Action Expert and VLM. I think it will be the future standard approach to these kind of VLA for a period of time.
