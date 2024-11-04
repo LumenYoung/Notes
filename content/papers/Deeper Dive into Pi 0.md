@@ -19,7 +19,7 @@ But the integration comes in a surprising way - there is no explicit transfer/pa
 
 ## Communication between expert
 
-Instead of providing image and language as conditioning features like diffusion policy does, the bi-directional attention block is responsible for exchanging information between the VLM and the action model.
+Instead of providing image and language as conditioning features to the action expert like diffusion policy does, the bi-directional attention block is responsible for exchanging information between the VLM and the action model.
 
 The attention blocks from both the VLM and the Action Expert can access information from each other (though future information is definitely not available).
 
