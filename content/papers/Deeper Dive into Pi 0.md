@@ -9,7 +9,7 @@ tags:
 title: Deeper Dive into π0
 ---
 
-Following up on yesterday's blogpost from Physical Intelligence, I found their [technical report](https://www.314159.com/download/pi0.pdf) about the new π0 foundation model. It's very novel and interesting to see their detailed design decisions. While it doesn't differ much from my speculation in [[π0 from phyiscal intelligence]], it's interesting enough to warrant another blog post.
+Following up on yesterday's blogpost from Physical Intelligence, I found their [technical report](https://www.314159.com/download/pi0.pdf) about the new π0 foundation model. It's very interesting to see their detailed design decisions. While it doesn't differ much from my speculation in [[π0 from phyiscal intelligence]], it's novel enough to warrant another blog post.
 
 ## Double expert system
 
