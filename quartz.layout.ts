@@ -28,6 +28,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Links()),
+    Component.Graph(),
+    // Component.DesktopOnly(Component.Explorer()),
+  ],
+  right: [
+    Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(
       Component.RecentNotes({
         filter: (file) => {
@@ -43,11 +48,6 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: true,
       }),
     ),
-    Component.DesktopOnly(Component.Explorer()),
-  ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
   afterBody: [
@@ -67,6 +67,21 @@ export const defaultContentPageLayout: PageLayout = {
         inputPosition: "bottom",
       },
     }),
+    Component.MobileOnly(
+      Component.RecentNotes({
+        filter: (file) => {
+          const slug = file.slug ?? ""
+          return !(
+            slug.endsWith("/") ||
+            endsWith(slug, "index") ||
+            endsWith(slug, "index.md") ||
+            endsWith(slug, "index.html")
+          )
+        },
+        limit: 5,
+        showTags: true,
+      }),
+    ),
   ],
 }
 
