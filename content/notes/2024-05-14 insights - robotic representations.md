@@ -1,9 +1,13 @@
 ---
+id: 2024-05-14 insights - robotic representations
 aliases: []
-tags: [papers, 中文, robotics]
+tags:
+  - papers
+  - 中文
+  - robotics
+date: "2024-05-14"
+modified: "2024-11-15"
 title: 2024-05-14 insights - robotic representations
-date: 2024-05-14 23:17:38
-category: 
 updated: 2024-05-15 09:48:07
 ---
 
