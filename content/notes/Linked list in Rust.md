@@ -1,9 +1,13 @@
 ---
+id: Linked list in Rust
 aliases: []
-tags: [rust, learning]
-title: Linked list in Rust
+tags:
+  - rust
+  - learning
 category: English
-date: 2024-01-10
+date: "2024-01-10"
+modified: "2024-11-15"
+title: Linked list in Rust
 update: 2024-01-10 00:22:54
 ---
 

@@ -1,16 +1,21 @@
 ---
+id: What I’ve found out recently from writing my Thesis
 aliases: []
-tags: [self, thesis, thoughts]
-title: What I’ve found out recently from writing my Thesis
+tags:
+  - self
+  - thesis
+  - thoughts
 category: English
-date: 2024-01-15 19:52:43
-update: 2024-01-15 21:04:34
-slug: ""
-description: ""
-noteId_x: 34
 create_time: 1/15/2024, 7:52:43 PM
-update_time: 1/15/2024, 9:05:19 PM
+date: "2024-01-15"
+description: ""
+modified: "2024-11-15"
+noteId_x: 34
 publish_time: 1/15/2024, 9:01:17 PM
+slug: ""
+title: What I’ve found out recently from writing my Thesis
+update: 2024-01-15 21:04:34
+update_time: 1/15/2024, 9:05:19 PM
 updated: 2024-01-15 23:45:08
 ---
 

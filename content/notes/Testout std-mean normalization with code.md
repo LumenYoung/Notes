@@ -6,6 +6,8 @@ tags:
   - tryout
   - normalization
   - 中文
+date: "2024-11-01"
+modified: "2024-11-15"
 ---
 
 一直以来我对于 std-mean normalization 带有两种不一样的直觉：一方面我在课堂上知道如果 input 只是单纯的 scale 上的不同，那么两者在 mean-std normalization 之后的值应该是一样的；另一方面在图像化的去想象这个过程中的时候，我总是会在心里面打鼓：“这两者真的会是一样的么？不应该是 min-max 的 normalization 才是一样的么？”。

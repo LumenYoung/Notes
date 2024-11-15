@@ -2,6 +2,8 @@
 id: index
 aliases: []
 tags: []
+date: "2024-11-15"
+modified: "2024-11-15"
 title: My Life
 ---
 
