@@ -4,6 +4,8 @@ aliases: []
 tags:
   - openvla
   - vla
+date: "2024-11-04"
+modified: "2024-11-15"
 ---
 
 Listened to the OpenVLA author's [talk](https://www.bilibili.com/video/BV13zpQemEdo/) on the way today. It was very informative, and I gained even more than from Cheng Chi's previous [[Talk from Cheng Chi|talk]].

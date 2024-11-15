@@ -1,8 +1,12 @@
 ---
+id: 2024-07-20 Chat in SSH
 aliases: []
-tags: [findings, 中文]
+tags:
+  - findings
+  - 中文
+date: "2024-07-20"
+modified: "2024-11-15"
 title: 2024-07-20 Chat in SSH
-date: 2024-07-20 22:41:27
 updated: 2024-07-20 22:46:34
 ---
 

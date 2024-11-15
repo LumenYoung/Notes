@@ -5,6 +5,8 @@ tags:
   - ros
   - troubleshoot
   - robostack
+date: "2024-10-01"
+modified: "2024-11-15"
 title: ROS1 Bridge to ROS2 with Robostack
 ---
 

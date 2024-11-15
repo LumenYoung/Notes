@@ -1,16 +1,19 @@
 ---
+id: What is the purpose of blinking
 aliases: []
-tags: [intentional-eyes-blink]
+tags:
+  - intentional-eyes-blink
 category: English
-title: What is the purpose of blinking
-date: 2024-02-29 16:32:34
-updated: 2024-02-29 16:44:03
-slug: ""
-description: ""
-noteId_x: 44
 create_time: 2/29/2024, 4:32:34 PM
-update_time: 2/29/2024, 4:40:39 PM
+date: "2024-02-29"
+description: ""
+modified: "2024-11-15"
+noteId_x: 44
 publish_time: 2/29/2024, 4:33:25 PM
+slug: ""
+title: What is the purpose of blinking
+update_time: 2/29/2024, 4:40:39 PM
+updated: 2024-02-29 16:44:03
 ---
 It might be interesting to ask the question, why do we blink? [Blink episode of the RadioLab](https://radiolab.org/podcast/91925-blink) dive into this question and the result is very much unexpected.
 
