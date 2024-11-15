@@ -1,15 +1,21 @@
 ---
+id: Composition over Inheritance
 aliases: []
-tags: [coding, learning, design-pattern, english]
-title: Composition over Inheritance
-date: 2023-11-10
-updated: 2024-01-15 23:52:40
-slug: ""
-description: ""
-noteId_x: 29
+tags:
+  - coding
+  - learning
+  - design-pattern
+  - english
 create_time: 11/10/2023, 9:31:46 PM
-update_time: 1/2/2024, 11:51:22 PM
+date: "2023-11-10"
+description: ""
+modified: "2024-11-15"
+noteId_x: 29
 publish_time: 11/10/2023, 9:43:09 PM
+slug: ""
+title: Composition over Inheritance
+update_time: 1/2/2024, 11:51:22 PM
+updated: 2024-01-15 23:52:40
 ---
 
 ## Why “Prefer Composition over Inheritance”?
