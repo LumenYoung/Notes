@@ -1,16 +1,21 @@
 ---
+id: Is numpy array row or column vector
 aliases: []
-tags: [python, numpy, learning]
-title: Is numpy array row or column vector
-date: 2024-02-05 15:42:22
+tags:
+  - python
+  - numpy
+  - learning
 category: English
-updated: 2024-02-11 09:22:30
-slug: ""
-description: ""
-noteId_x: 39
 create_time: 2/5/2024, 3:42:22 PM
-update_time: 2/11/2024, 12:45:17 AM
+date: 2024-02-05 15:42:22
+description: ""
+modified: "2024-11-15"
+noteId_x: 39
 publish_time: 2/5/2024, 8:25:18 PM
+slug: ""
+title: Is numpy array row or column vector
+update_time: 2/11/2024, 12:45:17 AM
+updated: 2024-02-11 09:22:30
 ---
 
 **tldr**: it is row vector, just automatically expanded/converted when doing matrix multiplication with the proper dimension.
