@@ -1,16 +1,20 @@
 ---
+id: Recursion, Tree and Culture
 aliases: []
-tags: [thoughts, recursion]
-title: Recursion, Tree and Culture
+tags:
+  - thoughts
+  - recursion
 category: English
-date: 2024-01-29 18:30:40
-updated: 2024-02-20 15:48:21
-slug: ""
-description: ""
-noteId_x: 38
 create_time: 1/29/2024, 6:30:40 PM
-update_time: 1/29/2024, 7:29:50 PM
+date: 2024-01-29 18:30:40
+description: ""
+modified: "2024-11-15"
+noteId_x: 38
 publish_time: 1/29/2024, 7:29:32 PM
+slug: ""
+title: Recursion, Tree and Culture
+update_time: 1/29/2024, 7:29:50 PM
+updated: 2024-02-20 15:48:21
 ---
  
 刚刚在放空大脑，盯着实验室外的树木看，注意到树上的枝桠一直不断的在做分形，大的分支产生小的分支，而小的分支本身又再重复着同样的事情。这种模式让我非常直接的联想到，这不就是一种递归么？
