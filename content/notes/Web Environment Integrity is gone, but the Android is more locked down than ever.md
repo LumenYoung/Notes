@@ -6,8 +6,9 @@ tags:
   - android
 category: English
 create_time: 11/9/2023, 10:56:24 AM
-date: 2024-01-10 00:00:24
+date: "2024-01-10"
 description: ""
+modified: "2024-11-15"
 noteId_x: 27
 publish_time: 11/9/2023, 11:44:29 AM
 title: Web Environment Integrity is gone, but the Android is more locked down than ever

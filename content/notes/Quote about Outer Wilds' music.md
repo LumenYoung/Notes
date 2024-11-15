@@ -1,16 +1,19 @@
 ---
+id: Quote about Outer Wilds' music
 aliases: []
-tags: [outer-wilds]
-title: "Quote about Outer Wilds' music"
+tags:
+  - outer-wilds
 category: English
-date: 2024-02-05 00:40:55
-updated: 2024-02-06 11:26:52
-slug: ""
-description: ""
-noteId_x: 40
 create_time: 2/5/2024, 12:40:55 AM
-update_time: 2/6/2024, 10:52:28 AM
+date: "2024-02-05"
+description: ""
+modified: "2024-11-15"
+noteId_x: 40
 publish_time: 2/5/2024, 8:26:58 PM
+slug: ""
+title: Quote about Outer Wilds' music
+update_time: 2/6/2024, 10:52:28 AM
+updated: 2024-02-06 11:26:52
 ---
 
 Quote @themasterchao from their YouTube Comment:
