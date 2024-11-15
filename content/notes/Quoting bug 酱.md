@@ -1,17 +1,19 @@
 ---
+id: Quoting bug 酱
 aliases: []
 tags:
   - deep-learning career
 category: 中文
-title: Quoting bug 酱
-date: 2024-01-10 00:10:40
-updated: 2024-01-10 00:33:05
-slug: ""
-description: ""
-noteId_x: 33
 create_time: 1/9/2024, 2:39:51 PM
-update_time: 1/10/2024, 4:39:58 PM
+date: "2024-01-10"
+description: ""
+modified: "2024-11-15"
+noteId_x: 33
 publish_time: 1/10/2024, 4:39:49 PM
+slug: ""
+title: Quoting bug 酱
+update_time: 1/10/2024, 4:39:58 PM
+updated: 2024-01-10 00:33:05
 ---
 
 > 补了一点 openai 的发布会

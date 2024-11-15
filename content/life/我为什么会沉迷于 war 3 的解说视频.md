@@ -9,8 +9,9 @@ tags:
   - 中文
 category: 中文
 create_time: 2024-01-28 12:48:39 PM
-date: 2024-01-28 12:48:39
+date: "2024-01-28"
 description: ""
+modified: "2024-11-15"
 noteId_x: 37
 publish_time: 1/28/2024 12:51:52 PM
 title: 我为什么会沉迷于 war 3 的解说视频

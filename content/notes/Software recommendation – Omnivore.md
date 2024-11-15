@@ -1,10 +1,13 @@
 ---
+id: Software recommendation – Omnivore
 aliases: []
-tags: [todo]
-title: Software recommendation – Omnivore
-date: 2024-02-23 19:09:24
-updated: 2024-02-29 16:44:15
+tags:
+  - todo
 category: English
+date: "2024-02-23"
+modified: "2024-11-15"
+title: Software recommendation – Omnivore
+updated: 2024-02-29 16:44:15
 ---
 
 It has been night days since I tried out the Omnivore and I am falling in love with it. It is an open-source read-it-later software that has very complete functionaility and very good design. From my user experience, I didn’t experience anything inconvenient/unconfortable when trying to incorporate it into my workflow. Although I’ve only used Omnivore for night days, it has already brought huge value to me, which I would like to write about now.

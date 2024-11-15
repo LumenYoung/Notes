@@ -5,6 +5,8 @@ tags:
   - paper
   - diffusion-policy
   - talk
+date: "2024-10-29"
+modified: "2024-11-15"
 title: Talk from Cheng Chi About Diffusion Policy
 ---
 
