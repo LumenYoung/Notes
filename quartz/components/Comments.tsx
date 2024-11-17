@@ -30,6 +30,7 @@ export default ((opts: Options) => {
     const disableComment: boolean =
       typeof fileData.frontmatter?.comments !== "undefined" &&
       (!fileData.frontmatter?.comments || fileData.frontmatter?.comments === "false")
+    // const disableComment: boolean = fileData.frontmatter?.comments === "false"
     if (disableComment) {
       return <></>
     }
