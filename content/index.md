@@ -2,6 +2,9 @@
 id: index
 aliases: []
 tags: []
+comments: true
+date: "2024-10-01"
+modified: "2024-11-17"
 title: Welcome to Lumen's Note
 ---
 
