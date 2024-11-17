@@ -5,7 +5,8 @@ tags:
   - openvla
   - vla
 date: "2024-11-04"
-modified: "2024-11-15"
+modified: "2024-11-17"
+title: OpenVLA, a good systematic exploration of Vision Language Action Models
 ---
 
 Listened to the OpenVLA author's [talk](https://www.bilibili.com/video/BV13zpQemEdo/) on the way today. It was very informative, and I gained even more than from Cheng Chi's previous [[Talk from Cheng Chi|talk]].
