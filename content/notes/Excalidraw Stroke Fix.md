@@ -19,7 +19,7 @@ But then I find that free-drawing in excalidraw is actually too thick and ugly, 
 
 After digging through the GitHub issues, I found some workarounds that seemed promising. It involves only small tweaks in hard-coded parameters in `excalidraw/packages/excalidraw/rendererElements.ts`:
 
-1. In the file `excalidraw/packages/excalidraw/rendererElements.ts`, change the strokeWidth
+1. In the file `rendererElements.ts`, change the strokeWidth
 
 /renderElement.ts
 
