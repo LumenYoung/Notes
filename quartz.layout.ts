@@ -65,6 +65,19 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
   afterBody: [
+    Component.RecentNotes({
+      filter: (file) => {
+        const slug = file.slug ?? ""
+        return !(
+          slug.endsWith("/") ||
+          endsWith(slug, "index") ||
+          endsWith(slug, "index.md") ||
+          endsWith(slug, "index.html")
+        )
+      },
+      limit: 5,
+      showTags: true,
+    }),
     Component.Comments({
       provider: "giscus",
       options: {
@@ -118,6 +131,19 @@ export const defaultListPageLayout: PageLayout = {
         reactionsEnabled: true,
         inputPosition: "top",
       },
+    }),
+    Component.RecentNotes({
+      filter: (file) => {
+        const slug = file.slug ?? ""
+        return !(
+          slug.endsWith("/") ||
+          endsWith(slug, "index") ||
+          endsWith(slug, "index.md") ||
+          endsWith(slug, "index.html")
+        )
+      },
+      limit: 5,
+      showTags: true,
     }),
   ],
 }
