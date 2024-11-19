@@ -32,4 +32,6 @@ Where $n$ is a patch index and $\text{sim}(\cdot, \cdot)$ is a predefined simila
 
 ## My takeaway
 
-Not that helpful on my side. I was attracted by the title but the subject of the paper is actually different from what I'm interested at. It looks like another use of dino's idea of self-supervised learning with image augmentation, but using them on image diffusion. I would be more interested at the connection between diffusion's internal representation and the used visual representation for conditioning in the diffusion policy.
+Not that helpful on my side. The title was a click-bite to me but the subject of the paper is actually different from what I'm interested at. It looks like another use of dino's idea of self-supervised learning with image augmentation, but using them on image diffusion. Just that self-supervised patch-wise alignment seems to be a good self-supervised learning paradigm.
+
+For me the more interesting topic is the connection between diffusion's internal representation and the used visual representation for conditioning, so they are completely different. 
