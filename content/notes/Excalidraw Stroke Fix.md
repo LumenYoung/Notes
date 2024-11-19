@@ -5,7 +5,7 @@ tags:
   - self-host
   - excalidraw
 date: "2024-11-18"
-modified: "2024-11-18"
+modified: "2024-11-19"
 title: Why would anyone self-host Excalidraw?
 ---
 
@@ -55,6 +55,6 @@ And voila! I had my own custom Excalidraw container with consistent stroke width
 
 ## Final Thoughts
 
-While this isn't a perfect solution, it works well for my needs. It's pretty cool how open-source projects like Excalidraw allow us to tinker and customize things to fit our preferences. Sure, it's not an official fix, but that's part of the fun of open-source - we can experiment and find workarounds when we need to.
+While this isn't a perfect solution, it works well for my needs. That is one of the reason I like open-source projects like Excalidraw that allow me to tinker and customize things to fit my nichey preferences. Sure, it's not an official fix, but that's part of the fun of open-source - we can experiment and find workarounds when we need to.
 
 For now, I'm happy with my custom version at draw.lumeny.io. It's a small tweak, but it makes a big difference in usability for me.
