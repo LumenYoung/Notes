@@ -75,7 +75,7 @@ export const defaultContentPageLayout: PageLayout = {
           endsWith(slug, "index.html")
         )
       },
-      limit: 4,
+      limit: 5,
       showTags: true,
     }),
     Component.Comments({
@@ -142,7 +142,7 @@ export const defaultListPageLayout: PageLayout = {
           endsWith(slug, "index.html")
         )
       },
-      limit: 4,
+      limit: 5,
       showTags: true,
     }),
   ],
