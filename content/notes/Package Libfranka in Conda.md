@@ -73,4 +73,4 @@ I placed all these files in the `<repo_root>/conda` directory, which is why the 
 
 Simply use `conda build conda` in the root directory of the repository.
 
-Then you can install this package. For me I'm using micromamba so it is `micromamba install -c local libfranka`
+Then you can install this package. I'm using micromamba so it is `micromamba install -c local libfranka`.
