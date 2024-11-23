@@ -5,7 +5,7 @@ tags:
   - conda
   - libfranka
 date: "2024-11-16"
-modified: "2024-11-16"
+modified: "2024-11-23"
 title: How to create package for Conda?
 ---
 
@@ -72,3 +72,5 @@ I placed all these files in the `<repo_root>/conda` directory, which is why the 
 ## How to build?
 
 Simply use `conda build conda` in the root directory of the repository.
+
+Then you can install this package. For me I'm using micromamba so it is `micromamba install -c local libfranka`
