@@ -11,4 +11,4 @@ modified: "2025-03-17"
 
 比如今天想要加新的地址的时候，跳出的就是当时在北京学德语的时候租的住处。东王庄那里的一个小院子，靠近中国地质大学。那个有点炎热的夏天，在一个在北京的小院子里面。想到这个地址之后就会有一串与之连接的小 sensation 掠过心头，让我重新领会当时有点年轻，充满希望和充满迷茫的心态。 
 
-How many things has been changed since then.
+How many things have been changed since then.
