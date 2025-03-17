@@ -1,5 +1,5 @@
 ---
-id: A queue of the memories
+id: A queue of memories
 aliases: []
 tags:
   - memories
