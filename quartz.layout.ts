@@ -36,28 +36,25 @@ export const defaultContentPageLayout: PageLayout = {
         },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
-        { Component: Component.DesktopOnly(Component.Links()) },
-        {
-          Component: Component.DesktopOnly(
-            Component.RecentNotes({
-              filter: (file) => {
-                const slug = file.slug ?? ""
-                return !(
-                  slug.endsWith("/") ||
-                  endsWith(slug, "index") ||
-                  endsWith(slug, "index.md") ||
-                  endsWith(slug, "index.html")
-                )
-              },
-              limit: 5,
-              showTags: true,
-            }),
-          ),
-        },
-        { Component: Component.DesktopOnly(Component.Explorer()) },
       ],
     }),
-    Component.Explorer(),
+    Component.DesktopOnly(Component.Links()),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        filter: (file) => {
+          const slug = file.slug ?? ""
+          return !(
+            slug.endsWith("/") ||
+            endsWith(slug, "index") ||
+            endsWith(slug, "index.md") ||
+            endsWith(slug, "index.html")
+          )
+        },
+        limit: 5,
+        showTags: true,
+      }),
+    ),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
     Component.Graph(),
