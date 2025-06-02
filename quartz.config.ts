@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "💡 Lumen's Notes. ", // 🌟
-    pageTitleSuffix: "Live my life consciously",
+    pageTitleSuffix: " ☁️ Live my life consciously",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
