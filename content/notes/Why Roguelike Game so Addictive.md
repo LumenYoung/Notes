@@ -3,9 +3,9 @@ aliases: ["Roguelike Addictive"]
 title: "Why Roguelike Game is so Addictive?"
 date: 2025-06-02
 ---
-## Roguelike is the ultimate reward system hack  
-
 端午节晚上在朋友家玩了《土豆兄弟》(Brotato)，当场就非常上头，第二天更是从早打到晚。不得不说，这种 Roguelike 游戏简直是人性的「毒药」——不只我如此，当时几乎在场的所有男生都对它难分难舍。  
+
+## Roguelike is the ultimate reward system hack  
 
 细想起来，Roguelike 几乎集齐了所有对大脑奖赏系统的强刺激元素。**首先**，物品掉落与商店刷出是随机的——随机奖励本身就带来瞬间的强刺激（赌场老虎机的成瘾根源正在于此）。**其次**，游戏全程贯穿着高频小奖励：短短 1 分钟的地牢探索就能包含 1）材料掉落 2）等级提升 3）装备获取 4）商店购买 四重反馈。若恰好遇到契合自身build的升级，多重奖励叠加更会让人欲罢不能，最终在一轮又一轮的「再来一分钟」里精疲力竭。  
 
