@@ -1,6 +1,6 @@
 ---
 aliases: ["Roguelike Addictive"] 
-title: "Why Roguelike Game are so Addictive?"
+title: "Why Roguelike Game is so Addictive?"
 date: 2025-06-02
 ---
 ## Roguelike is the ultimate reward system hack  
