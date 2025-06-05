@@ -5,7 +5,7 @@ tags: []
 comments: true
 date: "2024-10-01"
 modified: "2024-11-17"
-title: "Welcome to Lumen's Note"
+title: "Welcome"
 ---
 
 Hi, I'm Lumen. I'm a Robotic Software Engineering right now working at Agile Robots.
