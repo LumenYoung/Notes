@@ -1,6 +1,7 @@
 ---
 aliases: ["Roguelike Addictive"] 
-title: "Why Roguelike Game is so Addictive?"
+title: "Why Roguelike Games are so Addictive?"
+tags: ["cognitive-psychology", "life"]
 date: 2025-06-02
 ---
 端午节晚上在朋友家玩了《土豆兄弟》(Brotato)，当场就非常上头，第二天更是从早打到晚。不得不说，这种 Roguelike 游戏简直是人性的「毒药」——不只我如此，当时几乎在场的所有男生都对它难分难舍。  
