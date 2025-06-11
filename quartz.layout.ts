@@ -39,21 +39,21 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.DesktopOnly(Component.Links()),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        filter: (file) => {
-          const slug = file.slug ?? ""
-          return !(
-            slug.endsWith("/") ||
-            endsWith(slug, "index") ||
-            endsWith(slug, "index.md") ||
-            endsWith(slug, "index.html")
-          )
-        },
-        limit: 5,
-        showTags: true,
-      }),
-    ),
+    // Component.DesktopOnly(
+    //   Component.RecentNotes({
+    //     filter: (file) => {
+    //       const slug = file.slug ?? ""
+    //       return !(
+    //         slug.endsWith("/") ||
+    //         endsWith(slug, "index") ||
+    //         endsWith(slug, "index.md") ||
+    //         endsWith(slug, "index.html")
+    //       )
+    //     },
+    //     limit: 5,
+    //     showTags: true,
+    //   }),
+    // ),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
