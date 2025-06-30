@@ -10,12 +10,17 @@ title: "Random Thoughts - 讨论最近失控的生活"
 
 追根溯源，这份失控恰恰来自前段时间的过度自信。当时项目顺利、工作充实，我便理所当然地认为好状态会永远持续，于是放弃了那些曾让我保持平稳的习惯，比如冥想和跑步。当新的挫折来临，项目放缓，坏习惯的压力一并涌来时，我便兵败如山倒。这种盲目自信，成了压垮我的核心原因。
 
-在这种焦虑的机械状态下，我最近在路上会急切的去寻找一些「轻松」的播客，而这让我发现了孟岩的「无人知晓」。孟岩是经济学出身的创业者，背景与我迥异，但他的播客却深深吸引我。核心在于其轻松感——它不强行灌输，更像一场有节奏的闲谈。听他的播客，如同与好友聊天，是在信息轰炸的日常里一份难得的慰藉。虽然他一个小时的播客饱含了自己的各种表达和观点，但这一个小时对我来说却是一种很彻底的放松，明显在听完之后我感觉到了自己又向生活中「伸出了一些触角」，感觉到了很多在焦虑时无法体会到的小细节。
 
-这种播客的感觉也让我想起 Lex Fridman。我曾觉得他沉闷，不像其他节目那样刻意活泼 （比如 Radio Lab）。他语调低沉缓慢，提问与回答间沉稳平静。我发现这种形式更适合我的耳朵。它让我在低压状态下，接收那些不被刻意兜售的观点与经历，剥离了以传递知识为目的的谈话所带来的压力。
+在这种焦虑的机械状态下，我最近在路上会急切的去寻找一些「轻松」的播客，而这让我发现了孟岩的「[无人知晓](https://www.xiaoyuzhoufm.com/episode/61ee26c84675a08411f51570)」。孟岩是经济学出身的创业者，背景与我迥异，但他的播客却很吸引我。核心在于其轻松感——它不强行灌输，更像一场有节奏的闲谈。听他的播客，如同与好友聊天，是在信息轰炸的日常里让我可以喘口气，他随心表达的状态可以感染作为听众的我，所以即使他一个小时的播客饱含了自己的各种表达和观点，这一个小时对我来说却是一种很彻底的放松，明显在听完之后我感觉到了自己又向生活中「伸出了一些触角」，感觉到了很多在焦虑时无法体会到的小细节。
+
+这种播客的感觉也让我想起 Lex Fridman。我曾觉得他沉闷，不像其他节目那样刻意活泼 （比如 Radio Lab）。他语调低沉缓慢，提问与回答间沉稳平静。但如今我发现这种形式更适合我的耳朵。它让我在低压状态下，接收那些不被刻意兜售的观点与经历，剥离了以传递知识为目的的谈话所带来的压力。
 
 说来有趣，孟岩的语言中频繁出现“自己”一词。我的口头也常出现。这或许暗示着，我们都在试图通过自省，将精力投射回“我”这个概念上。对此我不作评判，只当是个人特点。
 
-所以，要自救，除了每日运动，就是冥想。这两件事，是帮我摆脱成瘾源、实践「活在当下」最实在的办法。我希望能借助它们和其他好习惯，重建生活的秩序。
+所以，要自救，除了每日运动，就是冥想。这两件事，是帮我摆脱成瘾源、实践“活在当下”最实在的办法。我希望能借助它们和其他好习惯，重建生活的秩序。
 
-Life has its ups and downs, and this lesson in overconfidence is precious. I'm beginning to understand that even when things are going smoothly, you need these structures. Habits like meditation and jogging ensure that when setbacks inevitably come, you have the willpower and framework to carry you through the valleys.
+**在此之上，我更意识到一个核心的自律：必须主动控制自己暴露在信息洪流中的程度。** 无论是工作中突发的消息，还是算法推荐的视频与文章，这些大多是生活中的非必要品，却会严重滋生焦虑。一旦思绪的后台被这些噪音占满，我便会失去处理真正重要事情的能力，失控感也由此将我淹没。
+
+因此，重建生活的秩序，不仅在于建立好习惯，更在于守住心智的边界。
+
+Life has its ups and downs, and this lesson in overconfidence is precious. I'm beginning to understand that even when things are going smoothly, you need these structures. Habits like meditation and jogging—**and the discipline to filter out noise**—ensure that when setbacks inevitably come, you have the willpower and framework to carry you through the valleys.
