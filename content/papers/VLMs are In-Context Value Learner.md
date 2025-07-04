@@ -4,7 +4,7 @@ date: 2025-07-04
 tags: ["vision-language","model-training","temporal-understanding"]
 ---
 # Vision Language Models are In-Context Value Learners
-Value prediction on shuffled frames from the demonstration. These values could be the progress of the demonstration. If the end of the episode is the success, then it can also be interpreted as the success progress of the task.
+Value prediction on shuffled frames from the demonstration. These values could be the progress of the demonstration. If the end of the video is the success, then it can also be interpreted as the success progress of the task.
 
 This stems from the fact that the VLM now fail to associate the temporal information from different image inputs. When presented with shuffled frames from the video, a VLM cannot reliablely determine the order of the frames rather just produce random numbers.
 
