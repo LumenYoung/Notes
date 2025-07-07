@@ -8,7 +8,7 @@ Value prediction on shuffled frames from the demonstration. These values could b
 
 This stems from the fact that the VLM now fail to associate the temporal information from different image inputs. When presented with shuffled frames from the video, a VLM cannot reliablely determine the order of the frames rather just produce random numbers.
 
-So this work creates such training scheme (they name it as General Value Learning, GVL for short) that request the VLM to produce correct progress value for each of the frames they present in the context. This force the VLM to associate information from different frames. 
+So this work creates such **prompting scheme** (they name it as General Value Learning, GVL for short) that request the VLM to produce correct progress value for each of the frames they present in the context. This force the VLM to associate information from different frames. 
 
 > 🤔 ==How can they make VLM focus on the relevant part of the context==? Any ablation on this?
 
