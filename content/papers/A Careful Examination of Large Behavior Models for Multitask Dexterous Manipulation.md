@@ -12,9 +12,9 @@ authors: ['TRI LBM Team', 'Jose Barreiros', 'Andrew Beaulieu', 'Aditya Bhat', 'R
 tags: ['Computer Science - Robotics', 'literature']
 ---
 
-# A Careful Examination of Large Behavior Models for Multitask Dexterous Manipulation
+## A Careful Examination of Large Behavior Models for Multitask Dexterous Manipulation
 
-由 TRI Large Behavior Model 团队带来的，系统的对比多任务的 VLA (They use a more general term call Large Behavior Model) 和单任务的 Action Model 之间的性能差异。
+由 TRI Large Behavior Model 团队带来的，系统的对比多任务的 VLA (They use a more general term called Large Behavior Model) 和单任务的 Action Model 之间的性能差异。
 
 Takeaway Points from their Website:
 
@@ -32,4 +32,5 @@ Takeaway Points from their Website:
  他们尝试这种操作的原因是因为观察到 LBM 在任务开始时往往会有比较明显的「迟疑」。
 
 > We observe that the *filtered-pretrained* LBM very quickly commits to a task, whereas the *unfilteredpretrained* LBM would often take a long time to initiate any motion.
+> 
 > We observed that *filtered-pretrained and finetuned* LBMs quickly initiate motions, whereas the *unfiltered-pretrained and finetuned* LBMs can take excessively long to start any motion.
