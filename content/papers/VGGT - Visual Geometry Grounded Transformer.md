@@ -39,12 +39,12 @@ The entire model is trained for 160,000 iterations on 64 A100 GPUs.
 ### Loss Function
 VGGT is trained with a multi-task loss function that combines losses from four different prediction tasks:
 
-$ \mathcal{L} = \mathcal{L}_{\text{camera}} + \mathcal{L}_{\text{depth}} + \mathcal{L}_{\text{pmap}} + \lambda \mathcal{L}_{\text{track}} $
+$ cal(L) = cal(L)_("camera") + cal(L)_("depth") + cal(L)_("pmap") + lambda cal(L)_("track") $
 
-*   **Camera Loss ($ \mathcal{L}_{\text{camera}} $)**: A Huber loss between the predicted and ground-truth camera parameters.
-*   **Depth Loss ($ \mathcal{L}_{\text{depth}} $)**: An aleatoric-uncertainty loss that weighs the difference between predicted and ground-truth depths by a predicted uncertainty map. It also includes a gradient-based term.
-*   **Point Map Loss ($ \mathcal{L}_{\text{pmap}} $)**: Defined analogously to the depth loss, but for 3D point maps.
-*   **Tracking Loss ($ \mathcal{L}_{\text{track}} $)**: Measures the distance between predicted and ground-truth 2D point correspondences, supplemented by a visibility loss. This component is down-weighted by a factor of $ \lambda = 0.05 $.
+*   **Camera Loss ($cal(L)_("camera")$)**: A Huber loss between the predicted and ground-truth camera parameters.
+*   **Depth Loss ($cal(L)_("depth")$)**: An aleatoric-uncertainty loss that weighs the difference between predicted and ground-truth depths by a predicted uncertainty map. It also includes a gradient-based term.
+*   **Point Map Loss ($cal(L)_("pmap")$)**: Defined analogously to the depth loss, but for 3D point maps.
+*   **Tracking Loss ($cal(L)_("track")$)**: Measures the distance between predicted and ground-truth 2D point correspondences, supplemented by a visibility loss. This component is down-weighted by a factor of $lambda = 0.05$.
 
 ### Training Datasets
 VGGT is trained on a large and diverse collection of publicly available datasets featuring 3D annotations. This combination spans various domains, including indoor and outdoor environments, as well as synthetic and real-world scenarios. The datasets include:
@@ -58,5 +58,3 @@ VGGT is trained on a large and diverse collection of publicly available datasets
 *   PointOdyssey
 *   Virtual KITTI
 *   And several others.
-
-
