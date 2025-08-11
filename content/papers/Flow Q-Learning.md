@@ -1,15 +1,27 @@
 ---
-citation_key: " FloQLe25"
-aliases: [' FloQLe25', "FQL", "One-step Policy"]
-zotero_key: "JFTT7HDI"
-item_type: "preprint"
-title: "Flow Q-Learning"
+id: Flow Q-Learning
+aliases:
+  - FloQLe25
+  - FQL
+  - One-step Policy
+tags:
+  - Computer Science - Machine Learning
+  - Computer Science - Artificial Intelligence
+  - literature
 abstract: "We present flow Q-learning (FQL), a simple and performant offline reinforcement learning (RL) method that leverages an expressive flow-matching policy to model arbitrarily complex action distributions in data. Training a flow policy with RL is a tricky problem, due to the iterative nature of the action generation process. We address this challenge by training an expressive one-step policy with RL, rather than directly guiding an iterative flow policy to maximize values. This way, we can completely avoid unstable recursive backpropagation, eliminate costly iterative action generation at test time, yet still mostly maintain expressivity. We experimentally show that FQL leads to strong performance across 73 challenging state- and pixel-based OGBench and D4RL tasks in offline RL and offline-to-online RL. Project page: https://seohong.me/projects/fql/"
-url: "http://arxiv.org/abs/2502.02538"
-doi: "10.48550/arXiv.2502.02538"
-add_date: "2025-07-02T12:45:15Z"
-authors: ['Seohong Park', 'Qiyang Li', 'Sergey Levine']
-tags: ['Computer Science - Machine Learning', 'Computer Science - Artificial Intelligence', 'literature']
+add_date: 2025-07-02T12:45:15Z
+authors:
+  - Seohong Park
+  - Qiyang Li
+  - Sergey Levine
+citation_key:  FloQLe25
+date: "2025-07-20"
+doi: 10.48550/arXiv.2502.02538
+item_type: preprint
+modified: "2025-08-11"
+title: Flow Q-Learning
+url: http://arxiv.org/abs/2502.02538
+zotero_key: JFTT7HDI
 ---
  
  # Flow Q-Learning
