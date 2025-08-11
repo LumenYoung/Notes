@@ -14,17 +14,19 @@ The authors propose a method called REPresentation Alignment (REPA), which is a 
 
 **CORE IDEA**
 
-REPA aims to distill the pretrained self-supervised visual representation of a clean image into the diffusion transformer representation of a noisy input. It aligns patch-wise projections of the model's hidden states with pretrained self-supervised visual representations. More specifically, Let $f$ be a pretrained encoder, $x^*$ a clean image, and $y^* = f(x^*)$ the encoder output. REPA aligns $h_\phi(h_t)$ with $y^*$, where $h_\phi(h_t)$ is a projection of the diffusion transformer encoder output.
+REPA aims to distill the pretrained self-supervised visual representation of a clean image into the diffusion transformer representation of a noisy input. It aligns patch-wise projections of the model's hidden states with pretrained self-supervised visual representations. More specifically, Let $f$ be a pretrained encoder, $x^*$ a clean image, and $y^* = f(x^*)$ the encoder output. REPA aligns $h_phi(h_t)$ with $y^*$, where $h_phi(h_t)$ is a projection of the diffusion transformer encoder output.
 
 **OBJECTIVE FUNCTION**
 
 REPA maximizes patch-wise similarities between the pretrained representation $y^*$ and the hidden state $h_t$:
 
-$$
-L_{REPA}(\theta, \phi) := -E_{x^*,\epsilon,t}\left[\frac{1}{N}\sum_{n=1}^N \text{sim}(y^{*[n]}, h_\phi(h_t^{[n]}))\right]
-$$
+$
+L_("REPA")(theta, phi) := -E_(x^*, epsilon, t)[
+  1/N sum_(n=1)^N "sim"(y^("*[n]"), h_phi(h_t^("[n]")))
+]
+$
 
-Where $n$ is a patch index and $\text{sim}(\cdot, \cdot)$ is a predefined similarity function. This term is added to the original diffusion-based objectives, with a hyperparameter $\lambda$ controlling the trade-off: $L := L_{\text{velocity}} + \lambda L_{\text{REPA}}$
+Where $n$ is a patch index and $"sim"(dot.op, dot.op)$ is a predefined similarity function. This term is added to the original diffusion-based objectives, with a hyperparameter $lambda$ controlling the trade-off: $L := L_"velocity" + lambda L_"REPA"$
 
 **FINDING**
 
