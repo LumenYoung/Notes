@@ -42,6 +42,7 @@ export interface Options {
   enableVideoEmbed: boolean
   enableCheckbox: boolean
   disableBrokenWikilinks: boolean
+  stripLinkPrefix?: string
 }
 
 const defaultOptions: Options = {
@@ -58,6 +59,7 @@ const defaultOptions: Options = {
   enableVideoEmbed: true,
   enableCheckbox: false,
   disableBrokenWikilinks: false,
+  stripLinkPrefix: undefined,
 }
 
 const calloutMapping = {
@@ -222,7 +224,17 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
               wikilinkRegex,
               (value: string, ...capture: string[]) => {
                 let [rawFp, rawHeader, rawAlias] = capture
-                const fp = rawFp?.trim() ?? ""
+                let fp = rawFp?.trim() ?? ""
+                
+                // Strip the configured prefix if present
+                if (opts.stripLinkPrefix && fp.startsWith(opts.stripLinkPrefix)) {
+                  fp = fp.slice(opts.stripLinkPrefix.length)
+                  // Remove leading slash if present after stripping prefix
+                  if (fp.startsWith("/")) {
+                    fp = fp.slice(1)
+                  }
+                }
+                
                 const anchor = rawHeader?.trim() ?? ""
                 const alias: string | undefined = rawAlias?.slice(1).trim()
 
