@@ -1,3 +1,8 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Dark mode support for Typst equations
+[saved-theme="dark"] svg[data-typst] {
+  filter: invert(1);
+}

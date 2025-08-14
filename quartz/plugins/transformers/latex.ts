@@ -8,6 +8,7 @@ import { KatexOptions } from "katex"
 import { Options as MathjaxOptions } from "rehype-mathjax/svg"
 //@ts-ignore
 import { Options as TypstOptions } from "@myriaddreamin/rehype-typst"
+import { visit } from "unist-util-visit"
 
 interface Options {
   renderEngine: "katex" | "mathjax" | "typst"
@@ -35,7 +36,19 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
           return [[rehypeKatex, { output: "html", macros, ...(opts?.katexOptions ?? {}) }]]
         }
         case "typst": {
-          return [[rehypeTypst, opts?.typstOptions ?? {}]]
+          return [
+            [rehypeTypst, opts?.typstOptions ?? {}],
+            [
+              () => (tree: any) => {
+                visit(tree, 'element', (node: any) => {
+                  if (node.tagName === 'svg' && node.properties) {
+                    // Add data-typst attribute to identify Typst-generated SVGs
+                    node.properties['data-typst'] = true
+                  }
+                })
+              }
+            ]
+          ]
         }
         case "mathjax": {
           return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}) }]]
