@@ -10,8 +10,14 @@ It has very nice syntax that is more compact than the obscure Latex. Also a huge
 
 I must admit that this is such a good type-setting system that is clean, easy to write and have modern and great infrastructure for the whole pipeline.
 
-## Difference between Inline and Block Math in Typst
+## ## Difference between Inline and Block Math in Typst
 
-As you can see, we are already using typst in this blog, since there is [already typst math support on Quartz](https://quartz.jzhao.xyz/plugins/Latex). Most of this support is straight forward except the syntax difference of inline and block math.
+This blog itself uses Typst for math rendering, thanks to [Typst support in the Quartz "Latex" plugin](https://quartz.jzhao.xyz/plugins/Latex). While most of the integration is straightforward, there's a key difference in how native Typst and Markdown handle math blocks.
 
-There is no difference betwen inline math and block math except the space to `$ $`. Inline is `$<math>$` and block is `$ <math> $`. However if we use typst as the latex engine in markdown, we are conforming to the latex format in markdown to use inline as `$<math>$` and `$$ <math> $$` for math block.
+In a standard `.typ` file, the only distinction between inline and block math is spacing. Inline math is tight against the dollar signs (`$<math>$`), whereas block math has spaces on the inside (`$ <math> $`).
+
+However, when using Typst as a rendering engine within Markdown (as we are here), you must conform to Markdown's widely-accepted syntax:
+*   **Inline math:** `$<math>$`
+*   **Block math:** `$$<math>$$`
+
+This is a small but important detail to remember.
