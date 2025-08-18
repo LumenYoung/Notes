@@ -17,7 +17,7 @@ tags: ['Computer Science - Machine Learning', 'Computer Science - Artificial Int
  
 I want to read this because there is no solution in my mind on **how to model the reward from multiple steps of action**. This is crucial for my design of the incorporation of the Pi0 model into the HIL. But in fact Q-Chunking is the solution for that. FQL instead is trying to address the gradient stability problem exists in the flow matching based RL.
 
-### BackPropogation Through Time
+### [[Publish/notes/Backpropogation Through Time]]
 
 > Why multiple step generation would be harmful for the BPTT?
 
