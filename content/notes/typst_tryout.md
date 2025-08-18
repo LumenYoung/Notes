@@ -10,7 +10,7 @@ It has very nice syntax that is more compact than the obscure Latex. Also a huge
 
 I must admit that this is such a good type-setting system that is clean, easy to write and have modern and great infrastructure for the whole pipeline.
 
-## ## Difference between Inline and Block Math in Typst
+## Difference between Inline and Block Math in Typst
 
 This blog itself uses Typst for math rendering, thanks to [Typst support in the Quartz "Latex" plugin](https://quartz.jzhao.xyz/plugins/Latex). While most of the integration is straightforward, there's a key difference in how native Typst and Markdown handle math blocks.
 
