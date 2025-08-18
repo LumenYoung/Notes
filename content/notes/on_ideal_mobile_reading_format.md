@@ -2,7 +2,7 @@
 aliases: [Markdown is a more ideal format for mobile book] 
 date: 2025-08-18
 tags: [thoughts]
-title: Markdown is a more ideal format for mobile book
+title: Markdown is a more ideal format for mobile e-book
 ---
 Recently, I've had trouble reading e-books on my Kindle. I want to read some physic book which contains a lot of math expressions but both epub and pdf are ugly to me.
 
@@ -12,4 +12,4 @@ A PDF is perfect if you have a large enough screen, but the text is often too sm
 
 This whole issue stems from a clash between two opposing philosophies: the strict, print-oriented formatting of systems like LaTeX (used to generate those beautifully formatted PDFs) and the loose, reflowable nature of formats like EPUB, which lack a native math-rendering engine like MathJax. Both fall short when you need technical material to be well-formatted on mobile devices with their varied screen sizes.
 
-I can't help but think that in an alternative history, if Markdown and other lightweight markup languages had become popular *before* the e-book industry took shape, we would have better-formatted e-books that are more versatile and better at handling mathematical equations. As a proof, we can see `README.md` from GitHub nicely rendered on the GitHub mobile app or web app, nicer than most of the e-book I can see when there is equation inside the corpus.
+I can't help but think that in an alternative history, if Markdown and other lightweight markup languages had become popular *before* the e-book industry took shape, we would have better-formatted e-books that are more versatile and better at handling mathematical equations. As a proof, we can see `README.md` from GitHub nicely rendered on the GitHub mobile app or web app, better than most of the math related e-book.
