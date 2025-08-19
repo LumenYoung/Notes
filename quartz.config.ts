@@ -74,6 +74,7 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ 
         enableInHtmlEmbed: false,
+        disableBrokenWikilinks: true, 
         stripLinkPrefix: "Publish/"
       }),
       Plugin.GitHubFlavoredMarkdown(),
