@@ -28,3 +28,7 @@ This content structure encompasses everything I might want to share without rest
 I've experimented with a lot of different setups along the way: first with my WordPress blog (now private), then my [xlog blog](https://xlog.lumeny.io/), and later my [Hexo website](https://writings.lumeny.io/). However, each of these fell short of meeting my expectations in one way or another. Now I find Quartz, which satisfies nearly all my criteria for an ideal blogging tool - a simple editing process and has the added benefit of helping me gradually develop a well-interconnected knowledge base.
 
 Aside from blogging, I use [memos](https://memos.lumeny.io/explore) to collect my scattered thoughts and I sometimes make some of them available publically.
+
+## Attribute
+
+The favicon for this site is from my favorite game, Outer Wilds. Its image of a campfire in the dark universe perfectly captures the spirit of this site. The game's story is about the relentless pursuit of knowledge, and since my name, Lumen, means "light," that little campfire is the ideal symbol for a place dedicated to shedding light on new ideas and thoughts.
