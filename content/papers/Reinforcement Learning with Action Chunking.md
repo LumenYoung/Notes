@@ -15,6 +15,12 @@ tags: ['Computer Science - Machine Learning', 'Statistics - Machine Learning', '
 
 # Reinforcement Learning with Action Chunking
 
+The core of Q-Chunking is pretty simple. Given a multi-step policy (or action chunk policy) $pi_psi ( a_(t:t+h) | s_t)$, the critic should be:
+
+$$
+Q_theta (s_t, a_(t:t+h)) arrow.l  sum_(t’=t)^(t+h-1) [ gamma^(t’-t)  r_t'] + gamma^h Q_theta (s_(t+h), a_(t+h:t+2h))
+$$
+
 The standard version of QC uses an implicit Kullback–Leibler (KL) divergence behavior constraint. This method works as follows:
 
 1.  **Behavior Policy Training**: It first trains a behavior cloning flow policy, denoted as $f_xi (dot.op | s)$, using a flow-matching objective on the offline data. This policy learns to approximate the distribution of action sequences found in the dataset.
