@@ -1,6 +1,6 @@
 ---
 citation_key: " VGGVisGe25"
-aliases: [' VGGVisGe25']
+aliases: [' VGGVisGe25', "VGGT"]
 zotero_key: "Q4N96T9W"
 date: "2025-07-14"
 item_type: "preprint"
