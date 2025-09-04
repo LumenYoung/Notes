@@ -9,7 +9,7 @@ modified: "2024-11-17"
 title: OpenVLA, a good systematic exploration of Vision Language Action Models
 ---
 
-Listened to the OpenVLA author's [talk](https://www.bilibili.com/video/BV13zpQemEdo/) on the way today. It was very informative, and I gained even more than from Cheng Chi's previous [[Talk from Cheng Chi|talk]].
+Listened to the OpenVLA author's [talk](https://www.bilibili.com/video/BV13zpQemEdo/) on the way today. It was very informative, and I gained even more than from Cheng Chi's previous [[Publish/papers/Talk from Cheng Chi|talk]].
 
 ## Design Choices
 
@@ -41,4 +41,4 @@ I hadn't delved deeply into OpenVLA's paper before, but this talk covered many d
 
 ## Summary
 
-[[Deeper Dive into π0|π0]] and OpenVLA are the two most recent advancements in VLA that I have come across. Although OpenVLA is certainly not as meticulously designed as π0, it provides good research results and insights. I admire the author's open-source spirit; BTW he is a first-year Ph.D. student at Stanford, and he is probably even younger than me, which is quite humbling.
+[[Publish/papers/Deeper Dive into Pi 0|π0]] and OpenVLA are the two most recent advancements in VLA that I have come across. Although OpenVLA is certainly not as meticulously designed as π0, it provides good research results and insights. I admire the author's open-source spirit; BTW he is a first-year Ph.D. student at Stanford, and he is probably even younger than me, which is quite humbling.
