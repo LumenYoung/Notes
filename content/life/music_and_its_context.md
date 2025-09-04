@@ -2,7 +2,7 @@
 aliases: [] 
 date: 2025-09-04
 ags: [music, thoughts]
-title: "on Music and its Context"
+title: "On Music and its Context"
 ---
 以我对于歌曲的审美，郭顶的「凄美地」虽然有很好听的旋律，但是词不达意，是不能算上很喜欢的。
 
