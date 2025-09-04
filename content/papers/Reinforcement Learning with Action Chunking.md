@@ -29,4 +29,4 @@ The standard version of QC uses an implicit Kullback–Leibler (KL) divergence b
 
 ## Additional
 
-Q-Chunking wasn’t conducting experiment on each 
+Q-Chunking wasn’t conducting experiment on Pi0, rather on a custom model.
