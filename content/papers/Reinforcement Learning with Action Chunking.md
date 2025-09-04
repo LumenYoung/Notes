@@ -26,3 +26,7 @@ The standard version of QC uses an implicit Kullback–Leibler (KL) divergence b
 1.  **Behavior Policy Training**: It first trains a behavior cloning flow policy, denoted as $f_xi (dot.op | s)$, using a flow-matching objective on the offline data. This policy learns to approximate the distribution of action sequences found in the dataset.
 2.  **Best-of-N Sampling**: Instead of learning a separate policy, QC uses "**best-of-N**" sampling to implicitly enforce the behavior constraint. At each step, it samples $N$ action chunks from the learned behavior policy $f_xi (dot.op | s)$.
 3.  **Action Selection**: It then selects the action chunk that results in the highest value from the Q-function. This chosen action chunk is used to interact with the environment and for the temporal difference (TD) backup.
+
+## Additional
+
+Q-Chunking wasn’t conducting experiment on each 
