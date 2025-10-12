@@ -35,5 +35,5 @@ Q: *如果在一个 scene 里面很多的 pose 都可以成功的话，那这个
 
 Q: *where is the performance degradation of n2m from?* 比起 oracle baseline ，n2m 还是有一定的 success rate degradation，这让我觉得他肯定包含一部分的 out of distribution case。这可能是来自于数据集的数量，导致一部分 OOD 的 initial pose 进入了 success label 的区域，所以我们需要知道论文 report 的 success rate 是怎么得到的。
 
-![[Attachments/N2M experiment illu.png]]
+![[N2M experiment illu.png]]
 This illustrated experiment is very interesting for me. One of the possible enhancement is to let N2M determine which cell is desired now with additional conditioning signals. This is very important for some detailed retrieval case.
