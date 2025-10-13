@@ -17,7 +17,6 @@ authors:
 tags:
   - Computer Science - Robotics
   - literature
-created: 2025-09-27
 ---
 The N2M paper proposes an additional **transition module** that relies on the egocentric RGBD camera view to determine the desired pose.
 
