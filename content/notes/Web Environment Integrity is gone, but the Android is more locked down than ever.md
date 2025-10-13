@@ -5,9 +5,8 @@ tags:
   - opinion
   - android
 category: English
-date: 2025-10-13
+date: 2024-11-09
 title: Web Environment Integrity is gone, but the Android is more locked down than ever
-created: 2025-10-13
 ---
 
 Knowing this from brodie’s [video](https://www.youtube.com/watch?v=CxoFZNW1xMM). People from Google finally give up the WEI proposal and reverted all the changes in chromium. Instead, they are pursuing a similar proposal, but exclusively for Android WebView.
