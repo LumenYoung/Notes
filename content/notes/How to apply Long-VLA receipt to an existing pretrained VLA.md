@@ -12,9 +12,9 @@ Every step is taken from the paper.
 1. **Split every demonstration into two contiguous parts**  
    - moving phase: robot travels to the target (≈10–15 frames before the object state changes)
    - interaction phase: robot acts on the object (grasp, push, press …)
-   Do it automatically with a simple “object-moved?” detector or by hand for a few hundred demos [1].
+   Do it automatically with a simple “object-moved?” detector or by hand for a few hundred demos.
 
-2. **Add a 1-D phase flag to the action vector**  
+2. **Add a 1-D phase flag to the action vector**
    - moving → set sp = –1  
    - interaction → set sp = +1  
    The flag is simply concatenated to the usual end-effector pose + gripper action, so the diffusion head now outputs 8-D instead of 7-D.
