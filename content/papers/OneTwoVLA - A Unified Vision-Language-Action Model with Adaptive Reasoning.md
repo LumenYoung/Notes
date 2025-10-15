@@ -1,17 +1,28 @@
 ---
 citation_key: " OneUniVi25"
-aliases: [' OneUniVi25']
-date: "2025-10-08"
-zotero_key: "352A2A2X"
-item_type: "preprint"
+aliases:
+  - " OneUniVi25"
+date: 2025-10-15
+zotero_key: 352A2A2X
+item_type: preprint
 title: "OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning"
 abstract: "General-purpose robots capable of performing diverse tasks require synergistic reasoning and acting capabilities. However, recent dual-system approaches, which separate high-level reasoning from low-level acting, often suffer from challenges such as limited mutual understanding of capabilities between systems and latency issues. This paper introduces OneTwoVLA, a single unified vision-language-action model that can perform both acting (System One) and reasoning (System Two). Crucially, OneTwoVLA adaptively switches between two modes: explicitly reasoning at critical moments during task execution, and generating actions based on the most recent reasoning at other times. To further unlock OneTwoVLA's reasoning and generalization capabilities, we design a scalable pipeline for synthesizing embodied reasoning-centric vision-language data, used for co-training with robot data. We validate OneTwoVLA's effectiveness through extensive experiments, highlighting its superior performance across four key capabilities: long-horizon task planning, error detection and recovery, natural human-robot interaction, and generalizable visual grounding, enabling the model to perform long-horizon, highly dexterous manipulation tasks such as making hotpot or mixing cocktails."
-url: "http://arxiv.org/abs/2505.11917"
-doi: "10.48550/arXiv.2505.11917"
-add_date: "2025-06-16T06:56:37Z"
-authors: ['Fanqi Lin', 'Ruiqian Nai', 'Yingdong Hu', 'Jiacheng You', 'Junming Zhao', 'Yang Gao']
-tags: ['Computer Science - Robotics', 'literature']
+url: http://arxiv.org/abs/2505.11917
+doi: 10.48550/arXiv.2505.11917
+add_date: 2025-06-16T06:56:37Z
+authors:
+  - Fanqi Lin
+  - Ruiqian Nai
+  - Yingdong Hu
+  - Jiacheng You
+  - Junming Zhao
+  - Yang Gao
+tags:
+  - Computer Science - Robotics
+  - literature
+created: 2025-10-15
 ---
+
 
 TRAINING PIPELINE
 - Real-robot data: every demonstration is sliced into “reasoning intervals” (where the model is taught to output a textual scene description, plan, history summary and next-step instruction) and “acting intervals” (where it predicts the low-level action chunk conditioned on that reasoning).
