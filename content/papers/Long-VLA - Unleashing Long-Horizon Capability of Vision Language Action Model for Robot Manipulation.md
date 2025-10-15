@@ -1,7 +1,7 @@
 ---
 citation_key: " LonUnlLo25"
 aliases: [' LonUnlLo25']
-date: "2025-10-08"
+date: "2025-10-15"
 zotero_key: "ETTSM55I"
 item_type: "preprint"
 title: "Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation"
@@ -28,8 +28,11 @@ DATASET
 ARCHITECTURE
 Long-VLA is built on top of the MDT (Multimodal Diffusion Transformer) policy; the same masking wrapper is also tested with HULC to show architecture-agnostic behaviour.
 
+[[Publish/notes/How to apply Long-VLA receipt to an existing pretrained VLA]] is a checklist of steps that I summarized that could apply Long-VLA’s receipt to an existing VLA such as $pi0$. I think it is not that generally applicable.
+
 CONCLUSIONS
  - Phase-aware input masking inside a single end-to-end VLA network solves the skill-chaining problem that causes other VLAs to collapse after a few sub-tasks.  
  - The masking module is architecture-agnostic: plugging it into two different VLA backbones (MDT and HULC) gives consistent gains, showing it can be grafted onto existing models without redesign.  
  - Decomposing demonstrations into movement vs. interaction phases and masking accordingly keeps training fully off-line and scalable while greatly reducing error accumulation in long-horizon manipulation.
- - Compare to [[Publish/papers/OneTwoVLA - A Unified Vision-Language-Action Model with Adaptive Reasoning| OneTwoVLA]] or [[Publish/papers/π0.5 - a Vision-Language-Action Model with Open-World Generalization| Pi05]], there should be 
+
+Compare to [[Publish/papers/OneTwoVLA - A Unified Vision-Language-Action Model with Adaptive Reasoning| OneTwoVLA]] or [[Publish/papers/π0.5 - a Vision-Language-Action Model with Open-World Generalization| Pi05]], Long-VLA is a more domain specific **training trick** instead of a more general solution to the long horizen training. I think it offers insight on how this trick performs (which seems good enough), however I don’t see it as something I want to integrate into my VLA.
