@@ -3,6 +3,7 @@ date: 2025-10-21
 tags:
   - thoughts
   - regression
+title: Relationship between regression and autoregression
 ---
 
 Regression is formulated as $P(y | x; theta)$, where $theta$ is the parameter estimated from the training data $(X, Y)$.
