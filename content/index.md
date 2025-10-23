@@ -1,11 +1,10 @@
 ---
-id: index
 aliases: []
 tags: []
 comments: true
-date: "2024-10-01"
-modified: "2024-11-17"
-title: "Welcome"
+date: 2025-10-23
+title: Welcome
+created: 2025-10-23
 ---
 
 Hi, I'm Lumen. I'm a Robotic Software Engineering working at Agile Robots.
@@ -23,7 +22,7 @@ Additionally, I also write short notes on the interesting paper I read/or acedem
 
 This content structure encompasses everything I might want to share without restricting me to only polished or meticulously crafted pieces. In fact, the pursuit of perfection can often drain the joy out of blogging, and I shall definitely avoid perfectionism.
 
-### Blogging software
+### Blogging Software
 
 I've experimented with a lot of different setups along the way: first with my WordPress blog (now private), then my [xlog blog](https://xlog.lumeny.io/), and later my [Hexo website](https://writings.lumeny.io/). However, each of these fell short of meeting my expectations in one way or another. Now I find Quartz, which satisfies nearly all my criteria for an ideal blogging tool - a simple editing process and has the added benefit of helping me gradually develop a well-interconnected knowledge base.
 
