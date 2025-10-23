@@ -2,7 +2,7 @@
 citation_key: " N2MBriNa25"
 aliases:
   - " N2MBriNa25"
-date: 2025-10-13
+date: 2025-10-23
 zotero_key: NH58Y3IT
 item_type: preprint
 title: "N2M: Bridging Navigation and Manipulation by Learning Pose Preference from Rollout"
@@ -17,6 +17,7 @@ authors:
 tags:
   - Computer Science - Robotics
   - literature
+created: 2025-10-23
 ---
 The N2M paper proposes an additional **transition module** that relies on the egocentric RGBD camera view to determine the desired pose.
 
