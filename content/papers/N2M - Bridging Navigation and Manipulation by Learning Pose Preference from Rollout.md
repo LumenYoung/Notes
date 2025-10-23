@@ -28,8 +28,6 @@ Overall I think this is a good extension to the current VLA models that helps 1)
 
 MY QUESTIONS
 
-Q: *I still don't understand yet how the policy to N2M module transition take place.* Do we need additional process to monitor on the N2M side whether the robot has enter the task area?
-
 Q: *如果在一个 scene 里面很多的 pose 都可以成功的话，那这个模型会学到什么呢？* 这种情况学到的东西确实是 multimodal 的，至少是 non-gaussian 的。
 
 Q: *where is the performance degradation of n2m from?* 比起 oracle baseline ，n2m 还是有一定的 success rate degradation，这让我觉得他肯定包含一部分的 out of distribution case。这可能是来自于数据集的数量，导致一部分 OOD 的 initial pose 进入了 success label 的区域，所以我们需要知道论文 report 的 success rate 是怎么得到的。
@@ -37,3 +35,20 @@ Q: *where is the performance degradation of n2m from?* 比起 oracle baseline �
 ![[Publish/att/N2M experiment illu.png]]
 
 This illustrated experiment is very interesting for me. One of the possible enhancement is to let N2M determine which cell is desired now with additional conditioning signals. This is very important for some detailed retrieval case.
+
+## How transition happen between N2M and the policy
+
+> Question: *I still don't understand yet how the policy to N2M module transition take place.* Do we need additional process to monitor on the N2M side whether the robot has enter the task area?
+
+The transition involving the N2M module is a sequential process designed to bridge the gap between navigation and manipulation. Step-by-step breakdown:
+
+1.  **Navigation to the Task Area:** First, a general navigation module guides the robot into the vicinity of the task. The N2M module's process begins once the robot reaches this "navigation end pose" . You don't need an additional process to monitor this; the completion of the initial navigation step triggers the N2M module.
+2.  **N2M Pose Adjustment:** Once the initial navigation is complete, the N2M module takes over to find a better starting position for the manipulation task.
+    *   It captures a 3D scan (an RGB point cloud) of the environment from the robot's current perspective .
+    *   The N2M network uses this scan to predict a distribution of initial poses that are preferable for the manipulation policy .
+3.  **Transition to Manipulation:** After N2M predicts the optimal starting spots, the system transitions to the final manipulation policy.
+    *   A single, collision-free pose is sampled from the distribution predicted by N2M .
+    *   The robot then navigates from its current position to this new, more precise pose .
+    *   Once the robot arrives at this ideal starting pose, the pre-trained manipulation policy is executed to perform the task .
+
+In essence, N2M acts as an intelligent intermediate step. It takes the robot from a general location in the task area and moves it to a specific, optimized starting point from which the manipulation policy is most likely to succeed .

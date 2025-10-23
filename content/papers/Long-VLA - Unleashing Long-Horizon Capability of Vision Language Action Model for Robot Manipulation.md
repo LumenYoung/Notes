@@ -1,16 +1,34 @@
 ---
 citation_key: " LonUnlLo25"
-aliases: [' LonUnlLo25', "longvla"]
-date: "2025-10-15"
-zotero_key: "ETTSM55I"
-item_type: "preprint"
+aliases:
+  - " LonUnlLo25"
+  - longvla
+date: 2025-10-23
+zotero_key: ETTSM55I
+item_type: preprint
 title: "Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation"
-abstract: "Vision-Language-Action (VLA) models have become a cornerstone in robotic policy learning, leveraging large-scale multimodal data for robust and scalable control. However, existing VLA frameworks primarily address short-horizon tasks, and their effectiveness on long-horizon, multi-step robotic manipulation remains limited due to challenges in skill chaining and subtask dependencies. In this work, we introduce Long-VLA, the first end-to-end VLA model specifically designed for long-horizon robotic tasks. Our approach features a novel phase-aware input masking strategy that adaptively segments each subtask into moving and interaction phases, enabling the model to focus on phase-relevant sensory cues and enhancing subtask compatibility. This unified strategy preserves the scalability and data efficiency of VLA training, and our architecture-agnostic module can be seamlessly integrated into existing VLA models. We further propose the L-CALVIN benchmark to systematically evaluate long-horizon manipulation. Extensive experiments on both simulated and real-world tasks demonstrate that Long-VLA significantly outperforms prior state-of-the-art methods, establishing a new baseline for long-horizon robotic control."
-url: "http://arxiv.org/abs/2508.19958"
-doi: "10.48550/arXiv.2508.19958"
-add_date: "2025-10-08T00:08:50Z"
-authors: ['Yiguo Fan', 'Pengxiang Ding', 'Shuanghao Bai', 'Xinyang Tong', 'Yuyang Zhu', 'Hongchao Lu', 'Fengqi Dai', 'Wei Zhao', 'Yang Liu', 'Siteng Huang', 'Zhaoxin Fan', 'Badong Chen', 'Donglin Wang']
-tags: ['Computer Science - Robotics', 'literature']
+abstract: Vision-Language-Action (VLA) models have become a cornerstone in robotic policy learning, leveraging large-scale multimodal data for robust and scalable control. However, existing VLA frameworks primarily address short-horizon tasks, and their effectiveness on long-horizon, multi-step robotic manipulation remains limited due to challenges in skill chaining and subtask dependencies. In this work, we introduce Long-VLA, the first end-to-end VLA model specifically designed for long-horizon robotic tasks. Our approach features a novel phase-aware input masking strategy that adaptively segments each subtask into moving and interaction phases, enabling the model to focus on phase-relevant sensory cues and enhancing subtask compatibility. This unified strategy preserves the scalability and data efficiency of VLA training, and our architecture-agnostic module can be seamlessly integrated into existing VLA models. We further propose the L-CALVIN benchmark to systematically evaluate long-horizon manipulation. Extensive experiments on both simulated and real-world tasks demonstrate that Long-VLA significantly outperforms prior state-of-the-art methods, establishing a new baseline for long-horizon robotic control.
+url: http://arxiv.org/abs/2508.19958
+doi: 10.48550/arXiv.2508.19958
+add_date: 2025-10-08T00:08:50Z
+authors:
+  - Yiguo Fan
+  - Pengxiang Ding
+  - Shuanghao Bai
+  - Xinyang Tong
+  - Yuyang Zhu
+  - Hongchao Lu
+  - Fengqi Dai
+  - Wei Zhao
+  - Yang Liu
+  - Siteng Huang
+  - Zhaoxin Fan
+  - Badong Chen
+  - Donglin Wang
+tags:
+  - Computer Science - Robotics
+  - literature
+created: 2025-10-23
 ---
 
 TRAINING RECEIPTS
