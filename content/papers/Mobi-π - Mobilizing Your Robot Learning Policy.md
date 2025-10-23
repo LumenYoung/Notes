@@ -2,7 +2,7 @@
 citation_key: " MobMobYo25"
 Galiases:
   - " MobMobYo25"
-date: 2025-10-23
+date: 2025-10-20
 zotero_key: 3QDQW3HU
 item_type: preprint
 title: "Mobi-π: Mobilizing Your Robot Learning Policy"
@@ -22,7 +22,7 @@ tags:
   - Computer Science - Computer Vision and Pattern Recognition
   - Computer Science - Robotics
   - literature
-created: 2025-10-23
+created: 2025-10-20
 ---
 
 TRAINING
