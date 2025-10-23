@@ -1,7 +1,7 @@
 ---
 aliases:
   - What I find interesting on CoRL 2025
-date: 2025-10-15
+date: 2025-10-23
 tags:
   - research
   - conference
@@ -14,9 +14,9 @@ created: 2025-10-11
 
 Execution of VLA is slow and also from time to time clumpsy. The clumpsiness is from the nature of action chunk generation, one inference step produces several actions. The slowness however is the natural of the teleoperation.
 
-There are two major directions for solving this problem. First is **stream/concatenate** the policy, instead of letting flow matching head generate the trajectory from the random noise, it starts from the previous trajectory and then creates the new trajectory based on previous one, on this direction we find [[Literature_Note/SAIL - Faster-than-Demonstration Execution of Imitation Learning Policies|SAIL]] and [[Literature_Note/Streaming Flow Policy - Simplifying diffusionflow-matching policies by treating action trajectories as flow trajectories|Stream Flow Policy]]. On another direction is simply train the model on the _accelerated trajectories_, this you find [[Literature_Note/DemoSpeedup - Accelerating Visuomotor Policies via Entropy-Guided Demonstration Acceleration|DemoSpeedup]], which tries to find which part of the demonstration can be accelerated.
+There are two major directions for solving this problem. First is **stream/concatenate** the policy, instead of letting flow matching head generate the trajectory from the random noise, it starts from the previous trajectory and then creates the new trajectory based on previous one, on this direction we find [[Publish/papers/SAIL - Faster-than-Demonstration Execution of Imitation Learning Policies|SAIL]] and [[Literature_Note/Streaming Flow Policy - Simplifying diffusionflow-matching policies by treating action trajectories as flow trajectories|Stream Flow Policy]]. On another direction is simply train the model on the _accelerated trajectories_, this you find [[Literature_Note/DemoSpeedup - Accelerating Visuomotor Policies via Entropy-Guided Demonstration Acceleration|DemoSpeedup]], which tries to find which part of the demonstration can be accelerated.
 
-The most mature and sound way to integrate into existing pipeline is [[Literature_Note/SAIL - Faster-than-Demonstration Execution of Imitation Learning Policies|SAIL]], which requires minimal architecture change and also handles the problem of _drifting movement_ very gracefully.
+The most mature and sound way to integrate into existing pipeline is [[Publish/papers/SAIL - Faster-than-Demonstration Execution of Imitation Learning Policies|SAIL]], which requires minimal architecture change and also handles the problem of _drifting movement_ very gracefully.
 
 ### On long horizon task / On combining navigation and manipuation
 
