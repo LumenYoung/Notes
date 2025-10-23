@@ -14,7 +14,7 @@ The similarities stop at the here: the two papers adopt opposite training philos
 OneTwoVLA  
 - Human demonstrators do not utter sub-task names while collecting robot data.  
 - After the physical trace is recorded, engineers **manually segment** every demonstration into “reasoning intervals” (≈ the instants where a new sub-task should start) and write a 4-part textual rationale (scene, plan, history, next atomic step) for each segment .  
-- At run-time the model itself decides whether the current situation calls for another bout of reasoning; if yes it outputs the textual rationale, otherwise it directly emits actions . This is done via whether the VLM produces `[BOR]` or `[BOA]` at the start of observation.
+- At run-time the model itself decides whether the current situation calls for another around of reasoning; if yes it outputs the textual rationale, otherwise it directly emits actions . This is done via whether the VLM produces `[BOR]` or `[BOA]` at the start of observation.
 
 π0.5  
 - During data collection a human speaks each next sub-task aloud (“pick up the plate”, “open the drawer”, …) while tele-operating the robot.  
