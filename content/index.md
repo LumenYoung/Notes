@@ -21,7 +21,7 @@ This small space serves as the primary platform for sharing my public notes. Whe
 
 Additionally, I also write short notes on the interesting paper I read/or acedemic materials at [Papers](/papers) directory, I hope those knowledge can be systematically accumulated, give me insights into the research fields I'm curious at. 
 
-This content structure encompasses everything I might want to share without restricting me to only polished or meticulously crafted pieces. In fact, the pursuit of perfection can often drain the joy out of blogging, and I shall definitely avoid this trap.
+This content structure encompasses everything I might want to share without restricting me to only polished or meticulously crafted pieces. In fact, the pursuit of perfection can often drain the joy out of blogging, and I shall definitely avoid perfectionism.
 
 ### Blogging software
 
