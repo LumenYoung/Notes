@@ -21,8 +21,8 @@ tags:
 created: 2025-10-23
 ---
 
-DemoSpeedup’s cornerstone is to let a proxy policy trained on ordinary demonstrations “vote” with its own uncertainty: frames on which the policy repeatedly samples tightly-clustered action chunks are tagged as low-entropy/high-precision (important), while frames that yield widely-scattered action samples are high-entropy/casual (expendable).
+DemoSpeedup’s main idea is to let a proxy policy trained on ordinary demonstrations “vote” with its own uncertainty: frames on which the policy repeatedly samples tightly-clustered action chunks are tagged as low-entropy/high-precision (important), while frames that yield widely-scattered action samples are high-entropy/casual (expendable).
 
 After HDBSCAN(hierarchical density-based clustering) splits each trajectory into these two sets, the casual parts are down-sampled at a higher ratio (rhigh≈3–4) than the precision parts (rlow≈2) yet every original observation is still kept (replicate-before-down-sample) and the chunk length is halved to keep the geometric distance per chunk unchanged.  
 
-These design choices—entropy-based segmentation, aggressive but observation-preserving acceleration, shorter geometrically-consistent chunks, and a high-gripper controller—prove critical for maintaining performance.  Policies retrained on the accelerated data execute 1.7–3× faster than the original ones while matching or raising success rates, eliminating the slowdown that human tele-operation normally imposes on visuomotor policies.
+These design choices—entropy-based segmentation, aggressive but observation-preserving acceleration, shorter geometrically-consistent chunks, and a high-gripper controller—are critical for maintaining performance.  Policies retrained on the accelerated data execute 1.7–3× faster than the original ones while matching or raising success rates, eliminating the slowdown that human tele-operation normally imposes on visuomotor policies.
