@@ -1,16 +1,28 @@
 ---
 citation_key: " MobMobYo25"
-Galiases: [' MobMobYo25']
-date: "2025-10-15"
-zotero_key: "3QDQW3HU"
-item_type: "preprint"
+Galiases:
+  - " MobMobYo25"
+date: 2025-10-23
+zotero_key: 3QDQW3HU
+item_type: preprint
 title: "Mobi-π: Mobilizing Your Robot Learning Policy"
 abstract: "Learned visuomotor policies are capable of performing increasingly complex manipulation tasks. However, most of these policies are trained on data collected from limited robot positions and camera viewpoints. This leads to poor generalization to novel robot positions, which limits the use of these policies on mobile platforms, especially for precise tasks like pressing buttons or turning faucets. In this work, we formulate the policy mobilization problem: find a mobile robot base pose in a novel environment that is in distribution with respect to a manipulation policy trained on a limited set of camera viewpoints. Compared to retraining the policy itself to be more robust to unseen robot base pose initializations, policy mobilization decouples navigation from manipulation and thus does not require additional demonstrations. Crucially, this problem formulation complements existing efforts to improve manipulation policy robustness to novel viewpoints and remains compatible with them. We propose a novel approach for policy mobilization that bridges navigation and manipulation by optimizing the robot's base pose to align with an in-distribution base pose for a learned policy. Our approach utilizes 3D Gaussian Splatting for novel view synthesis, a score function to evaluate pose suitability, and sampling-based optimization to identify optimal robot poses. To understand policy mobilization in more depth, we also introduce the Mobi-$pi$ framework, which includes: (1) metrics that quantify the difficulty of mobilizing a given policy, (2) a suite of simulated mobile manipulation tasks based on RoboCasa to evaluate policy mobilization, and (3) visualization tools for analysis. In both our developed simulation task suite and the real world, we show that our approach outperforms baselines, demonstrating its effectiveness for policy mobilization."
-url: "http://arxiv.org/abs/2505.23692"
-doi: "10.48550/arXiv.2505.23692"
-add_date: "2025-10-08T00:09:22Z"
-authors: ['Jingyun Yang', 'Isabella Huang', 'Brandon Vu', 'Max Bajracharya', 'Rika Antonova', 'Jeannette Bohg']
-tags: ['Computer Science - Machine Learning', 'Computer Science - Computer Vision and Pattern Recognition', 'Computer Science - Robotics', 'literature']
+url: http://arxiv.org/abs/2505.23692
+doi: 10.48550/arXiv.2505.23692
+add_date: 2025-10-08T00:09:22Z
+authors:
+  - Jingyun Yang
+  - Isabella Huang
+  - Brandon Vu
+  - Max Bajracharya
+  - Rika Antonova
+  - Jeannette Bohg
+tags:
+  - Computer Science - Machine Learning
+  - Computer Science - Computer Vision and Pattern Recognition
+  - Computer Science - Robotics
+  - literature
+created: 2025-10-23
 ---
 
 TRAINING
@@ -19,7 +31,7 @@ Mobi-π never retrains or fine-tunes the original manipulation policy.
 
 Instead it keeps the policy frozen and, at deployment time, builds a 3-D Gaussian-splatting (3DGS) scene model from 1 000 casually-collected RGB-D images (< 5 min of driving around).  
 
-A hybrid score function K(p) (in-distribution similarity via DINO features + object visibility via MiniCPM-V + collision check) is optimised with Bayesian optimisation to decide where the mobile base should stop so that the *already-trained* policy receives an in-distribution camera view [1].
+A hybrid score function K(p) (in-distribution similarity via DINO features + object visibility via MiniCPM-V + collision check) is optimised with Bayesian optimisation to decide where the mobile base should stop so that the *already-trained* policy receives an in-distribution camera view.
 
 DATASET
 

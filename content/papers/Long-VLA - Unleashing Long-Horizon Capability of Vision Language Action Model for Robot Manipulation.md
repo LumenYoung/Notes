@@ -1,6 +1,6 @@
 ---
 citation_key: " LonUnlLo25"
-aliases: [' LonUnlLo25']
+aliases: [' LonUnlLo25', "longvla"]
 date: "2025-10-15"
 zotero_key: "ETTSM55I"
 item_type: "preprint"
