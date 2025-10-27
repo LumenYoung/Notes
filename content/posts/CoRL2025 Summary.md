@@ -56,7 +56,7 @@ Demo 是真的很酷，围在他的 poster 旁边看了好久这个 toddler 做�
 
 Torque is definitely a must-have for finegrain manipulation, even it is not yet inside the current VLA architectures.
 
-TODO: [[Literature_Note/TA-VLA - Elucidating the Design Space of Torque-aware Vision-Language-Action Models| TA-VLA]]
+TODO: [[Publish/papers/TA-VLA - Elucidating the Design Space of Torque-aware Vision-Language-Action Models| TA-VLA]]
 
 ### Dyna Robotics Demo
 
