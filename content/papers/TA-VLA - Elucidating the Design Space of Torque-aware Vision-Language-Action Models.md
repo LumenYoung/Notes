@@ -14,14 +14,14 @@ tags: ['Computer Science - Robotics', 'literature']
 ---
 
 > MYTAKE
-> I met the poster of the paper on CoRL 2025. I think it is good in the sense that it sufficiently explored the design space of integrating the torque. Also the proposed improvement is minor and clear, not paying unfair price for the performance boost.
+> I met the poster of the paper on CoRL 2025. I think it is good in the sense that it sufficiently explored the design space of integrating the torque. Also the proposed improvement is minimal and clear, not paying unfair price for the performance boost.
 
 TA-VLA gives a systematic study on _how to integrate torque signal into VLA_, they show that the best way to give a pretrained Vision-Language-Action model a sense of force is 
 
-1. put the torque data into the decoder, not the encoder
+1. put the torque data into the decoder, not the encoder.
 2. compress the whole history of joint torques into one additional token instead of adding many per-frame tokens.
 
-Injecting this single “torque-history” token next to the robot-state input of π0’s flow-matching decoder boosts contact-rich tasks (button pushing, charger/USB plug insertion, etc.) from ≤25 % to 85–90 % success, without hurting regular tasks.
+Injecting this single “torque-history” token next to the robot-state input of π0’s flow-matching decoder boosts contact-rich tasks (button pushing, charger/USB plug insertion, etc) from ≤25 % to 85–90 % success, without hurting regular tasks.
 
 A second design choice—training the same diffusion head to denoise both future actions and future torques—further lifts performance to 90–95 % while keeping inference cost almost unchanged (≈90 ms on an RTX 4090). Extending the recipe to a different VLA (RDT-1B) and to another robot arm (ROKAE SR) gives identical gains, confirming that “**decoder-side single-token torque history**” is the most robust and transferable integration strategy.
 
