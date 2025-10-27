@@ -4,7 +4,9 @@ aliases: []
 tags: []
 date: "2024-10-15"
 modified: "2024-11-15"
-title: Paper Notes
+title: Literature Notes
 ---
 
-Papers that I read/glanced that worth noting down.
+Literatures that I read/glanced that worth noting down.
+
+This is there for a Zettlekasten system that differs from the normal note in the sense that it doesn’t necessarily document my thoughts rather the facts I think worth integrating into my knowledge base.
