@@ -9,4 +9,4 @@ title: Literature Notes
 
 Literatures that I read/glanced that worth noting down.
 
-This is there for a Zettlekasten system that differs from the normal note in the sense that it doesn’t necessarily document my thoughts rather the facts I think worth integrating into my knowledge base.
+This is there for literature notes in a Zettlekasten system that differs from the normal note in the sense that **it doesn’t necessarily document my thoughts rather the facts** I think worth integrating into my knowledge base.
