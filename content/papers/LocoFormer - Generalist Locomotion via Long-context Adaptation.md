@@ -10,7 +10,7 @@ url: "http://arxiv.org/abs/2509.23745"
 doi: "10.48550/arXiv.2509.23745"
 add_date: "2025-10-27T05:55:28Z"
 authors: ['Min Liu', 'Deepak Pathak', 'Ananye Agarwal']
-tags: ['Computer Science - Artificial Intelligence', 'Computer Science - Robotics', 'literature'', "todo"]
+tags: ['Computer Science - Artificial Intelligence', 'Computer Science - Robotics', 'literature', 'todo']
 ---
 
 >Questions
@@ -22,4 +22,3 @@ LocoFormer adapts the vanilla Transformer by replacing it with Transformer-XL, w
 It is pretrained with massively-scaled PPO on ≈100 k procedurally-generated robots—bipeds, quadrupeds and wheeled variants whose masses, inertias, gains and joint limits are aggressively randomized—yielding a single unified policy that sees two orders of magnitude more embodiments than prior work. 
 
 The key finding is that this breadth plus long-context memory enables emergent, few-shot omni-bodied control: the same checkpoint zero-shots to 10 unseen real robots (G1, H1, Go2, Go2-W, Spot, AnyMal-C, …) and, when limbs are locked, wheels jammed, mass added or stilts attached, it quickly self-specializes, matching expert-tuned controllers after only 5 s of on-robot experience.
-ok
