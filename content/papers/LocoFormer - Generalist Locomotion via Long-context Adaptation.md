@@ -10,7 +10,7 @@ url: "http://arxiv.org/abs/2509.23745"
 doi: "10.48550/arXiv.2509.23745"
 add_date: "2025-10-27T05:55:28Z"
 authors: ['Min Liu', 'Deepak Pathak', 'Ananye Agarwal']
-tags: ['Computer Science - Artificial Intelligence', 'Computer Science - Robotics', 'literature']
+tags: ['Computer Science - Artificial Intelligence', 'Computer Science - Robotics', 'literature', "todo"]
 ---
 
 >Questions
