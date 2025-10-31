@@ -22,3 +22,5 @@ LocoFormer adapts the vanilla Transformer by replacing it with Transformer-XL, w
 It is pretrained with massively-scaled PPO on ≈100 k procedurally-generated robots—bipeds, quadrupeds and wheeled variants whose masses, inertias, gains and joint limits are aggressively randomized—yielding a single unified policy that sees two orders of magnitude more embodiments than prior work. 
 
 The key finding is that this breadth plus long-context memory enables emergent, few-shot omni-bodied control: the same checkpoint zero-shots to 10 unseen real robots (G1, H1, Go2, Go2-W, Spot, AnyMal-C, …) and, when limbs are locked, wheels jammed, mass added or stilts attached, it quickly self-specializes, matching expert-tuned controllers after only 5 s of on-robot experience.
+
+
