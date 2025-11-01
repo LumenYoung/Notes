@@ -22,8 +22,4 @@ Let me be honest, while finding those good writer’s and opinions is suppose to
 
 Omnivore serves as a good tool to allow me review those valuable blog/articles easily after I’ve collected them.
 
-But I don’t read them much because there is always something new coming and I often don’t have large chunks of time to sit down specifically for the article reading. **In retrospect, I would say collecting good information should be a seperated process from processing them** and I used to
-
-- [ ] not finished yet
-
-## References
+But I don’t read them much because there is always something new coming and I often don’t have large chunks of time to sit down specifically for the article reading. **In retrospect, I would say collecting good information should be a seperated process from processing them**.
