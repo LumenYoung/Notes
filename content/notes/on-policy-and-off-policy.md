@@ -10,4 +10,4 @@ In contrast off policy would maintain the replay buffer and reuse the experience
 
 However, the way to use the data doesn’t make the most important difference, the most important question is: **are the samples you are using to estimate the expectation coming from the same distribution that the expectation is defined over?** This leads to the definition of behavior policy and the target policy. Where behavior policy $mu$ produces the action and the target policy $pi$ is the one that is updated, estimating the expectation is not necessarily the same between these two policies.
 
-So in online policy, behavior policy $mu$ is just the $pi$ policy, therefore it is an unbiased estimation. However this is not true for off-policy.
+So in online policy, behavior policy $mu$ is just the target policy $pi$, therefore it is an unbiased estimation. However this is not true for off-policy.
