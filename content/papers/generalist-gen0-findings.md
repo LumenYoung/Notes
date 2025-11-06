@@ -27,10 +27,10 @@ Realistically speaking I concur to start with a unified model that ingest all th
 The proposed method involves training the GEN-0 embodied foundation model on a massive and diverse dataset of real-world physical interactions using a new "Harmonic Reasoning" architecture that enables seamless thinking and acting. Good performance for the model is defined mathematically using two primary metrics on downstream tasks:
 
 1.  **Validation Prediction Mean Squared Error (MSE):** Lower values indicate better performance.
-    $ MSE_val = norm(a^⋆ - â)_2^2 $
+    $ "MSE"_"val" = norm(a^⋆ - hat(a))_2^2 $
     where $a^⋆$ is the ground-truth action and $â$ is the predicted action.
 2.  **Reverse Kullback-Leibler (KL) Divergence:** Lower values are also better, as this metric measures mode-seeking behavior and how well the policy's output distribution matches the ground-truth distribution.
-    $ widehat(D)_KL (q||p) approx 1/M sum_(m=1)^M [log q(â_m) - log p(â_m)] $
+    $ hat(D)_"KL" (q||p) approx 1/M sum_(m=1)^M [log q(â_m) - log p(â_m)] $
     where $q$ is the empirical density induced by the policy and $p$ is the ground-truth density.
     
 For the data, "good" performance is characterized by its quality (which is measured by the downstream dataset performance) and diversity (which is associated with the environment, task, embodiment diversities), which are found to be more important than sheer volume. The effectiveness of a dataset is measured by how well a model pretrained on it performs on downstream tasks using the metrics above.
