@@ -13,11 +13,12 @@ authors: ['Min Liu', 'Deepak Pathak', 'Ananye Agarwal']
 tags: ['Computer Science - Artificial Intelligence', 'Computer Science - Robotics', 'literature', 'todo']
 ---
 
+
 >Questions
 >1. When considering the fact that [[Publish/papers/Transformers learn in-context by gradient descent]], how can we understand their architecture adaptation? Why it is successful? What problem they avoided?
 >2. Like all the works that emphasize the cross embodiment learning, what does the policy learn from those aggressively varying embodiments? What common physics are behind this cross embodiment learning?
 
-LocoFormer adapts the vanilla Transformer by replacing it with [[Literature_Note/Transformer-XL - Attentive Language Models Beyond a Fixed-Length Context|Transformer-XL]], whose segment-level recurrence and cached hidden states let the policy attend to histories thousands of steps long (≈18 s at 50 Hz) without quadratic-time blow-up, so the model can do in-context, cross-trial adaptation instead of the usual few-hundred-millisecond context. 
+LocoFormer adapts the vanilla Transformer by replacing it with [[Publish/papers/Transformer-XL - Attentive Language Models Beyond a Fixed-Length Context|Transformer-XL]], whose segment-level recurrence and cached hidden states let the policy attend to histories thousands of steps long (≈18 s at 50 Hz) without quadratic-time blow-up, so the model can do in-context, cross-trial adaptation instead of the usual few-hundred-millisecond context. 
 
 It is pretrained with massively-scaled PPO on ≈100 k procedurally-generated robots—bipeds, quadrupeds and wheeled variants whose masses, inertias, gains and joint limits are aggressively randomized—yielding a single unified policy that sees two orders of magnitude more embodiments than prior work. 
 

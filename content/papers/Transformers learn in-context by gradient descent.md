@@ -20,6 +20,6 @@ The authers shows that transformer learns in context **on regression tasks** via
 
 So this suggests a two-timescale learning process of Transformers: _during training_ is the slow loop (SGB on parameter $theta$), in which transformers slowly learn an mesa-optimizer inside their weight. _During the inference time_, a single forward acts as a fast Gradient Descent on the in-context example, effectively implementing a learned optimization procedure, like Gradient Descent, that is for the current task.
 
-## only for linear regression?
+## Only for linear regression?
 
 No. Once an MLP is inserted before the attention layer, the network first embeds the tokens non-linearly and **then** applies GD in the learned feature space, so the story generalises beyond raw linear regression.
