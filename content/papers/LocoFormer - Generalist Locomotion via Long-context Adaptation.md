@@ -13,7 +13,6 @@ authors: ['Min Liu', 'Deepak Pathak', 'Ananye Agarwal']
 tags: ['Computer Science - Artificial Intelligence', 'Computer Science - Robotics', 'literature', 'todo']
 ---
 
-
 >Questions
 >1. When considering the fact that [[Publish/papers/Transformers learn in-context by gradient descent]], how can we understand their architecture adaptation? Why it is successful? What problem they avoided?
 >2. Like all the works that emphasize the cross embodiment learning, what does the policy learn from those aggressively varying embodiments? What common physics are behind this cross embodiment learning?

@@ -1,7 +1,7 @@
 ---
 citation_key: " TraAttLa19"
 aliases: [' TraAttLa19']
-date: "2025-11-03"
+date: "2025-12-24"
 zotero_key: "NIIXTQWV"
 item_type: "preprint"
 title: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context"
@@ -13,7 +13,7 @@ authors: ['Zihang Dai', 'Zhilin Yang', 'Yiming Yang', 'Jaime Carbonell', 'Quoc V
 tags: ['Computer Science - Machine Learning', 'Statistics - Machine Learning', 'Computer Science - Computation and Language', 'literature']
 ---
 
-This is an 2019 paper on extending the context length of Transformers. 6 year old paper in the filed of deep learning is ancient. However I think it is still quiet impressive as someone from SkildAI is building some cool stuff ( [[Publish/papers/LocoFormer - Generalist Locomotion via Long-context Adaptation]] ) on top of the TransformerXL proposed from this paper. Therefore I want to understand more about this.
+This is a 2019 paper on extending the context length of Transformers. 6 year old paper in the filed of deep learning is ancient. However I think it is still quiet impressive as someone from SkildAI is building some cool stuff ( [[Publish/papers/LocoFormer - Generalist Locomotion via Long-context Adaptation]] ) on top of the TransformerXL proposed from this paper. Therefore I want to understand more about this.
 
 ## Most Important Contribution: how to extend the Context Length on Segment Level
 
