@@ -80,7 +80,7 @@ rm -rf ~/.cache/google-chrome/Default/GPUCache
 
 ## Final takeaway
 
-This looked like one bug, but it was really a layered cache issue:
+This looked like one bug, but it was really a bug + layered cache issue:
 
 1. timeout too short for my real server response time (1s vs ~1.63s)
 2. stale Cloudflare edge cache for frontend assets
