@@ -73,6 +73,8 @@ $$
 
 其中 active parameters 取 $N = 1.5 times 10^9$，训练 tokens 取 $D = 1.0 times 10^12$，那么总训练算力大约为：
 $$
+C approx 6 times 1.5 times 10^9 times 10^12 = 9 times 10^21 " FLOPs"
+$$
 
 如果按 8 张 H100 的理论峰值粗算，单卡 BF16 / FP16 tensor core 峰值约 $989 times 10^12$ FLOPs / s，则总峰值约为：
 
