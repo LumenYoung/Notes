@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
-title: "Literature_Note/beyond-language-modeling-an-exploration-of-multimodal-pretraining-4494bc2c"
 date: "2026-03-03"
 item_type: "paper"
 title: "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
