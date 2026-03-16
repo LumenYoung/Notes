@@ -2,7 +2,7 @@
 citation_key: " MobMobYo25"
 Galiases:
   - " MobMobYo25"
-date: 2025-10-20
+date: 2025-10-23
 zotero_key: 3QDQW3HU
 item_type: preprint
 title: "Mobi-π: Mobilizing Your Robot Learning Policy"

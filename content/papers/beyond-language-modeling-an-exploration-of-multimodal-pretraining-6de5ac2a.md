@@ -72,19 +72,27 @@ C approx 6 N D
 $$
 
 其中 active parameters 取 $N = 1.5 times 10^9$，训练 tokens 取 $D = 1.0 times 10^12$，那么总训练算力大约为：
-总训练算力约为 9e21 FLOPs。
+$$
+C approx 6 times 1.5 times 10^9 times 10^12 = 9 times 10^21 "FLOPs"
+$$
 
 如果按 8 张 H100 的理论峰值粗算，单卡 BF16 / FP16 tensor core 峰值约 $989 times 10^12$ FLOPs / s，则总峰值约为：
 
-总理论峰值约为 7.9e15 FLOPs/s。
+$$
+8 times 989 times 10^12 approx 7.9 times 10^15 "FLOPs/s"
+$$
 
 理想下限时间大约是：
 
-理想下限时间约为 1.14e6 s，也就是约 13.2 天。
+$$
+T_"ideal" approx (9 times 10^21) / (7.9 times 10^15) approx 1.14 times 10^6 "s" approx 13.2 "days"
+$$
 
 但真实训练不可能达到理论峰值。若按 30% 到 50% 的有效利用率估算，则 8 张 H100 训练这一级别主模型的时间大约在：
 
-按 30% 到 50% 的有效利用率估算，实际训练时间大约在 26 到 44 天。
+$$
+T_"realistic" approx 26 - 44 "days"
+$$
 
 也就是 roughly 3 到 6 周。对我来说，这说明论文的主训练是明确的大型预训练规模，不是 8 卡几天就能轻松复现的实验设置。
 
