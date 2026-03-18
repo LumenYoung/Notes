@@ -99,7 +99,7 @@ $$
 
 ## Evidence And Claims
 
-- Text + Video 不伤害语言能力，甚至在 DCLM 上优于 text-only。说明真正伤语言的不是视觉模态本身，而更像是 image caption text 的 distribution shift。
+- Text + Video 不伤害语言能力，甚至在 DCLM 上优于 text-only。说明真正语言的不是视觉模态本身，而更像是 image caption text 的 distribution shift。
 - Text + MetaCLIP 的 perplexity 最差。作者将其归因于 image caption 风格文本与 DCLM 主文本分布不一致。
 - 论文显式比较了 MetaCLIP, MetaCLIP Recaption, SSTK 与 DCLM 的文本分布距离；距离越远，语言 perplexity 越容易变差。
 - 不同 image-text source 对应不同能力：MetaCLIP 更适合 I2T / understanding；SSTK 更适合 T2I / generation。因此 image-text data 应该按 objective 选，而不是混成一种通用 caption 数据。
