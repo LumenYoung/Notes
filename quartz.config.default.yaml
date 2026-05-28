@@ -1,13 +1,14 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: Lumen's Notes.
+  pageTitleSuffix: " ☁️ Live my life consciously"
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: google
+    tagId: G-9Z03XJTGY3
   locale: en-US
-  baseUrl: v5.quartz-1h4.pages.dev
+  baseUrl: www.lumeny.io
   ignorePatterns:
     - private
     - templates
@@ -16,8 +17,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Philosopher
+      body: Ysabeau
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -61,7 +62,7 @@ plugins:
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
-      enableInHtmlEmbed: false
+      enableInHtmlEmbed: true
       enableCheckbox: true
     order: 30
   - source: github:quartz-community/github-flavored-markdown
@@ -81,7 +82,7 @@ plugins:
   - source: github:quartz-community/latex
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: typst
     order: 80
   - source: github:quartz-community/citations
     enabled: false
@@ -154,7 +155,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: github:quartz-community/tag-list
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -182,10 +183,17 @@ plugins:
       priority: 5
       condition: not-index
   - source: github:quartz-community/comments
-    enabled: false
+    enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: LumenYoung/Notes
+        repoId: R_kgDONDxfsA
+        category: Comments
+        categoryId: DIC_kwDONDxfsM4Cj7Qu
+        mapping: pathname
+        reactionsEnabled: true
+        inputPosition: top
     layout:
       position: afterBody
       priority: 10
@@ -193,10 +201,15 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        MyGitHub: https://github.com/LumenYoung
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      limit: 5
+      showTags: true
+    layout:
+      position: afterBody
+      priority: 20
   - source: github:quartz-community/spacer
     enabled: true
     options: {}

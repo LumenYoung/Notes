@@ -226,12 +226,25 @@ a {
       display: flex;
       height: 100vh;
       position: sticky;
+      overflow: hidden;
     }
 
     & .sidebar.left {
       z-index: 1;
       grid-area: grid-sidebar-left;
       flex-direction: column;
+      min-height: 0;
+
+      & .explorer {
+        min-height: 0;
+      }
+
+      & .explorer-content {
+        min-height: 0;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+      }
+
       @media all and ($mobile) {
         gap: 0;
         align-items: center;
@@ -241,6 +254,7 @@ a {
         flex-direction: row;
         padding: 0;
         padding-top: 2rem;
+        overflow: visible;
       }
     }
 
