@@ -1,4 +1,10 @@
 .links {
+  display: none;
+
+  @media all and (min-width: 1200px) {
+    display: block;
+  }
+
   ul {
     list-style: none;
     margin-top: 1rem;
