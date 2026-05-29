@@ -1,5 +1,6 @@
 import { QuartzEmitterPlugin, QuartzPageTypePluginInstance, TreeTransform } from "../types"
 import { QuartzComponent, QuartzComponentProps } from "../../components/types"
+import Links from "../../components/Links"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { FilePath, FullSlug, pathToRoot } from "../../util/path"
@@ -23,13 +24,19 @@ function resolveLayout(
   const overrides = byPageType[pageType.layout] ?? {}
   // Frame priority: config override > page type declaration > default
   const frame = overrides.frame ?? pageType.frame ?? "default"
+  const left = overrides.left ?? sharedDefaults.left ?? []
+
   return {
     head: overrides.head ?? sharedDefaults.head!,
     header: overrides.header ?? sharedDefaults.header ?? [],
     beforeBody: overrides.beforeBody ?? sharedDefaults.beforeBody ?? [],
     pageBody: pageType.body(undefined),
     afterBody: overrides.afterBody ?? sharedDefaults.afterBody ?? [],
-    left: overrides.left ?? sharedDefaults.left ?? [],
+    left: [
+      ...left.slice(0, 3),
+      Links(),
+      ...left.slice(3),
+    ],
     right: overrides.right ?? sharedDefaults.right ?? [],
     footer: overrides.footer ?? sharedDefaults.footer!,
     frame,
