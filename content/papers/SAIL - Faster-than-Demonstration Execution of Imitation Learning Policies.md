@@ -4,6 +4,7 @@ aliases:
   - " SAIFasEx25"
   - SAIL
 date: 2025-10-23
+published: 2025-10-23
 zotero_key: KB6XYJD6
 item_type: preprint
 title: "SAIL: Faster-than-Demonstration Execution of Imitation Learning Policies"

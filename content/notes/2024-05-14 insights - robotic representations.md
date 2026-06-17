@@ -6,6 +6,7 @@ tags:
   - 中文
   - robotics
 date: "2024-05-14"
+published: "2024-05-14"
 modified: "2024-11-15"
 title: 2024-05-14 insights - robotic representations
 updated: 2024-05-15 09:48:07

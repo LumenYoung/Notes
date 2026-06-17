@@ -1,6 +1,7 @@
 ---
 aliases: [] 
 date: 2026-04-12
+published: 2026-04-12
 tags: [realization, agent]
 title: "Tool iteration at the age of Agent"
 ---

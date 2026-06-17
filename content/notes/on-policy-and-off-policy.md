@@ -1,6 +1,7 @@
 ---
 aliases: [] 
 date: 2025-11-04
+published: 2025-11-04
 tags: [reinforcement-learning]
 title: difference between on policy and off policy
 ---

@@ -2,6 +2,7 @@
 aliases: []
 tags: []
 date: "2025-10-22"
+published: "2025-10-22"
 title: Difference between OneTwoVLA and Pi0.5
 ---
 

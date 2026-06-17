@@ -2,6 +2,7 @@
 citation_key: " NonEneMi25"
 aliases: [' NonEneMi25']
 date: "2025-10-08"
+published: "2025-10-08"
 zotero_key: "AGEKLSM5"
 item_type: "preprint"
 title: "Non-conflicting Energy Minimization in Reinforcement Learning based Robot Control"

@@ -3,6 +3,7 @@ id: index
 aliases: []
 tags: []
 date: "2024-10-15"
+published: "2024-10-15"
 modified: "2024-11-15"
 title: Literature Notes
 ---

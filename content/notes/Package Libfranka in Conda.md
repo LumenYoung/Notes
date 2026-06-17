@@ -5,6 +5,7 @@ tags:
   - conda
   - libfranka
 date: "2024-11-16"
+published: "2024-11-16"
 modified: "2024-11-23"
 title: How to create package for Conda?
 ---

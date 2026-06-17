@@ -5,6 +5,7 @@ tags:
   - self-host
   - excalidraw
 date: "2024-11-18"
+published: "2024-11-18"
 modified: "2024-11-19"
 title: Why would anyone self-host Excalidraw?
 ---

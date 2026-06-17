@@ -5,6 +5,7 @@ tags:
   - gpg
   - archlinux
 date: "2025-01-01"
+published: "2025-01-01"
 modified: "2025-01-01"
 title: "Troubleshoot: GPG keyserver receive failed"
 ---

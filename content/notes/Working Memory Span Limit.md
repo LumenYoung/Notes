@@ -1,6 +1,7 @@
 ---
 tags: ['cognitive-psychology']
 date: "2025-06-05"
+published: "2025-06-05"
 ---
 Modern Cognitive Psychology found  that we can easily remember things within 4 units, this is like the number of items you can easily put into your working memory. Maintaining more than 4 chunks would be harder as you have to consciously maintain the chunk.
 

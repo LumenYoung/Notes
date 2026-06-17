@@ -2,6 +2,7 @@
 citation_key: " GoaImiLe23a"
 aliases: [' GoaImiLe23a', "Beso"]
 date: "2025-08-07"
+published: "2025-08-07"
 zotero_key: "XGIR6FFS"
 item_type: "preprint"
 title: "Goal-Conditioned Imitation Learning using Score-based Diffusion Policies"

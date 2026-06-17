@@ -9,6 +9,7 @@ url: "http://arxiv.org/abs/2502.02538"
 doi: "10.48550/arXiv.2502.02538"
 add_date: "2025-07-02T12:45:15Z"
 date: "2025-08-07"
+published: "2025-08-07"
 authors: ['Seohong Park', 'Qiyang Li', 'Sergey Levine']
 tags: ['Computer Science - Machine Learning', 'Computer Science - Artificial Intelligence', 'literature']
 ---

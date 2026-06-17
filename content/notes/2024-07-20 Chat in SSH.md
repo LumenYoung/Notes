@@ -5,6 +5,7 @@ tags:
   - findings
   - 中文
 date: "2024-07-20"
+published: "2024-07-20"
 modified: "2024-11-15"
 title: 2024-07-20 Chat in SSH
 updated: 2024-07-20 22:46:34

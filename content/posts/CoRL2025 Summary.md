@@ -2,6 +2,7 @@
 aliases:
   - What I find interesting on CoRL 2025
 date: 2025-10-23
+published: 2025-10-23
 tags:
   - research
   - conference

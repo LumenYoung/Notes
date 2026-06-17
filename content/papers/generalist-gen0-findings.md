@@ -1,6 +1,7 @@
 ---
 aliases: ["GEN0"] 
 date: 2025-11-05
+published: 2025-11-05
 tags: [generalist-ai]
 title: "New findings from generalist ai on VLA scaling law"
 ---

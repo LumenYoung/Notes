@@ -1,6 +1,7 @@
 ---
 aliases: [] 
 date: 2025-10-23
+published: 2025-10-23
 tags:
   - anxiety
   - life

@@ -1,6 +1,7 @@
 ---
 aliases: [Markdown is a more ideal format for mobile book] 
 date: 2025-08-18
+published: 2025-08-18
 tags: [thoughts]
 title: Markdown is a more ideal format for mobile e-book
 ---

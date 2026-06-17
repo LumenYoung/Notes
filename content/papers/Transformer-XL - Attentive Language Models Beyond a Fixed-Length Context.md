@@ -2,6 +2,7 @@
 citation_key: " TraAttLa19"
 aliases: [' TraAttLa19']
 date: "2025-12-24"
+published: "2025-12-24"
 zotero_key: "NIIXTQWV"
 item_type: "preprint"
 title: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context"

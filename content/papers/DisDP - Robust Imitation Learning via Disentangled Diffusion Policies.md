@@ -2,6 +2,7 @@
 citation_key: " DisRobIm25"
 aliases: [' DisRobIm25', "DisDP"]
 date: "2025-08-07"
+published: "2025-08-07"
 zotero_key: "EL4RYWUB"
 item_type: "conferencePaper"
 title: "DisDP: Robust Imitation Learning via Disentangled Diffusion Policies"

@@ -1,6 +1,7 @@
 ---
 aliases: [] 
 date: 2025-08-19
+published: 2025-08-19
 tags: ["physics", "learning", "relativity"]
 title: "抽象话是如何帮我理解光速不变"
 ---

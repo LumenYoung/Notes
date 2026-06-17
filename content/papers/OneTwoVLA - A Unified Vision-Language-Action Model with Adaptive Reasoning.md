@@ -3,6 +3,7 @@ citation_key: " OneUniVi25"
 aliases:
   - " OneUniVi25"
 date: 2025-10-15
+published: 2025-10-15
 zotero_key: 352A2A2X
 item_type: preprint
 title: "OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning"

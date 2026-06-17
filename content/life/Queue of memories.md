@@ -4,6 +4,7 @@ aliases: []
 tags:
   - memories
 date: "2025-03-17"
+published: "2025-03-17"
 modified: "2025-06-25"
 ---
 

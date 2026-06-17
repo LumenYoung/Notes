@@ -1,6 +1,7 @@
 ---
 aliases: [] 
 date: 2025-09-04
+published: 2025-09-04
 ags: [music, thoughts]
 title: "On Music and its Context"
 ---

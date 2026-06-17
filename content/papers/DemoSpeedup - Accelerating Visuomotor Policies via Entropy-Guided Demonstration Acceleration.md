@@ -4,6 +4,7 @@ aliases:
   - " DemAccVi25"
   - "demospeedup"
 date: 2025-10-17
+published: 2025-10-17
 zotero_key: Q9HATAGA
 item_type: preprint
 title: "DemoSpeedup: Accelerating Visuomotor Policies via Entropy-Guided Demonstration Acceleration"
