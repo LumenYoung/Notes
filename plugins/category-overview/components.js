@@ -1,7 +1,7 @@
 import { h } from "preact"
 
 const defaultOptions = {
-  title: "Overview",
+  title: "",
   items: [
     {
       title: "Notes",
@@ -36,31 +36,23 @@ function classNames(...classes) {
 }
 
 const style = `
-.category-overview {
-  ul {
-    list-style: none;
-    margin-top: 1rem;
-    padding-left: 0;
-  }
+.links ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding-left: 0;
+}
 
-  li {
-    margin: 1rem 0;
-  }
+.links ul > li {
+  margin: 1rem 0;
+}
 
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+.links ul > li h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
-  a {
-    background-color: transparent;
-  }
-
-  i {
-    display: block;
-    line-height: 1.25rem;
-    opacity: 0.75;
-  }
+.links ul > li a {
+  background-color: transparent;
 }
 `
 
@@ -73,8 +65,8 @@ const CategoryOverview = (userOpts) => {
 
   const CategoryOverviewComponent = ({ displayClass }) => {
     return h(
-      "nav",
-      { class: classNames(displayClass, "category-overview"), "aria-label": "Category overview" },
+      "div",
+      { class: classNames(displayClass, "links", "category-overview") },
       opts.title ? h("h3", null, opts.title) : null,
       h(
         "ul",

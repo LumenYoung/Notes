@@ -186,7 +186,7 @@ plugins:
   - source: ./plugins/category-overview
     enabled: true
     options:
-      title: Overview
+      title: ""
     layout:
       position: left
       priority: 40
