@@ -1,0 +1,33 @@
+{
+  "name": "homepage-sections",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "build": "echo local plugin uses root runtime"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components.js"
+  },
+  "quartz": {
+    "name": "homepage-sections",
+    "displayName": "Homepage Sections",
+    "description": "Homepage-only latest-content sections grouped by top-level folders.",
+    "category": "component",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "limit": 3,
+      "tagLimit": 3
+    },
+    "components": {
+      "HomepageSections": {
+        "displayName": "Homepage Sections",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 8
+      }
+    }
+  }
+}

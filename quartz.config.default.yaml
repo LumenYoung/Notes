@@ -77,7 +77,13 @@ plugins:
     order: 40
   - source: github:quartz-community/table-of-contents
     enabled: true
+    options:
+      layout: modern
     order: 50
+    layout:
+      position: right
+      priority: 20
+      display: desktop-only
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -204,6 +210,14 @@ plugins:
     layout:
       position: afterBody
       priority: 10
+  - source: ./plugins/homepage-sections
+    enabled: true
+    options:
+      limit: 3
+      tagLimit: 3
+    layout:
+      position: afterBody
+      priority: 8
   - source: github:quartz-community/footer
     enabled: true
     options:
