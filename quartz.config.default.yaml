@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Lumen's Notes.
+  pageTitle: Lumen Yang
   pageTitleSuffix: " ☁️ Live my life consciously"
   enableSPA: true
   enablePopovers: true
