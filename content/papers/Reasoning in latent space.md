@@ -6,7 +6,6 @@ tags:
   - reasoning
   - agent
 date: "2024-12-26"
-published: "2024-12-26"
 modified: "2024-12-26"
 ---
 

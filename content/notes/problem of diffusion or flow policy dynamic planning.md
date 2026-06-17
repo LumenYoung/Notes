@@ -1,7 +1,6 @@
 ---
 created: 2025-10-23
 date: 2025-10-23
-published: 2025-10-23
 title: Problem when trying to remove the replanning lag of flow/diffusion policy
 tags:
   - diffusion-policy

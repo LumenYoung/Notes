@@ -2,7 +2,6 @@
 citation_key: " TAVEluDe25"
 aliases: [' TAVEluDe25']
 date: "2025-10-11"
-published: "2025-10-11"
 zotero_key: "B22584HH"
 item_type: "preprint"
 title: "TA-VLA: Elucidating the Design Space of Torque-aware Vision-Language-Action Models"

@@ -1,6 +1,5 @@
 ---
 date: 2025-07-16
-published: 2025-07-16
 tags: ["vla", "ucb"]
 aliases: ["BPTT"]
 ---

@@ -6,7 +6,6 @@ tags:
   - learning
 category: English
 date: "2024-01-10"
-published: "2024-01-10"
 modified: "2024-11-15"
 title: Linked list in Rust
 update: 2024-01-10 00:22:54

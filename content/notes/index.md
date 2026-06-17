@@ -3,7 +3,6 @@ id: notes_index
 aliases: []
 tags: []
 date: "2024-11-15"
-published: "2024-11-15"
 modified: "2024-11-15"
 title: Notes
 ---

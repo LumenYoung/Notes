@@ -2,7 +2,6 @@
 citation_key: " FasDuaFo25"
 aliases: [' FasDuaFo25']
 date: "2025-10-20"
-published: "2025-10-20"
 zotero_key: "7HPYQDIZ"
 item_type: "webpage"
 title: "Fast-in-Slow: A Dual-System Foundation Model Unifying Fast Manipulation within Slow Reasoning"

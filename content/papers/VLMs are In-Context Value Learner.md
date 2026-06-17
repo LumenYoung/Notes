@@ -1,7 +1,6 @@
 ---
 aliases: ["General Value Leanring","In-Context Value Leanring"] 
 date: 2025-07-04
-published: 2025-07-04
 tags: ["vision-language","model-training","temporal-understanding"]
 ---
 # Vision Language Models are In-Context Value Learners

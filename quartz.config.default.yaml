@@ -43,6 +43,12 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
+  - source: ./plugins/date-frontmatter-compat
+    enabled: true
+    options:
+      sourceField: date
+      targetField: published
+    order: 5
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:

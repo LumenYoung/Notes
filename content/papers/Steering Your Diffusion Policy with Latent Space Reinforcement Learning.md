@@ -2,7 +2,6 @@
 citation_key: " SteYouDi25"
 aliases: [' SteYouDi25']
 date: "2025-10-10"
-published: "2025-10-10"
 zotero_key: "28AZW3S7"
 item_type: "preprint"
 title: "Steering Your Diffusion Policy with Latent Space Reinforcement Learning"

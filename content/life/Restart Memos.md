@@ -1,7 +1,6 @@
 ---
 aliases: ["Start to use Memo again"] 
 date: 2025-07-18
-published: 2025-07-18
 title: "Start to use Memo again"
 tags: ["note-taking", "life", "self-host"]
 ---

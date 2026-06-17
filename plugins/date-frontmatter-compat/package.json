@@ -1,0 +1,23 @@
+{
+  "name": "date-frontmatter-compat",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./index.ts",
+  "quartz": {
+    "name": "date-frontmatter-compat",
+    "displayName": "Date Frontmatter Compatibility",
+    "description": "Maps legacy frontmatter date fields to Quartz v5 date fields before date extraction.",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "defaultOrder": 5,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "sourceField": "date",
+      "targetField": "published"
+    }
+  },
+  "dependencies": {
+    "@quartz-community/types": "github:quartz-community/types"
+  }
+}

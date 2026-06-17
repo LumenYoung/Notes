@@ -3,7 +3,6 @@ aliases: ["mental cost when typing"]
 tags: ["cognitive-psychology", "observation"]
 title: "Mental Cost when Typing"
 date: 2025-06-13
-published: 2025-06-13
 ---
 最近发现自己用笔记思考（打字）的时候，将视线短暂的从屏幕上移开，转移到键盘上面，反而是一个更轻松的事情。
 

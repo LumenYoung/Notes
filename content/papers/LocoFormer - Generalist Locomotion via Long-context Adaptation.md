@@ -2,7 +2,6 @@
 citation_key: " LocGenLo25"
 aliases: [' LocGenLo25']
 date: "2025-10-27"
-published: "2025-10-27"
 zotero_key: "6586M3BY"
 item_type: "preprint"
 title: "LocoFormer: Generalist Locomotion via Long-context Adaptation"

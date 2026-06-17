@@ -3,7 +3,6 @@ citation_key: " N2MBriNa25"
 aliases:
   - " N2MBriNa25"
 date: 2025-10-23
-published: 2025-10-23
 zotero_key: NH58Y3IT
 item_type: preprint
 title: "N2M: Bridging Navigation and Manipulation by Learning Pose Preference from Rollout"

@@ -1,7 +1,6 @@
 ---
 created: 2025-10-20
 date: 2025-10-20
-published: 2025-10-20
 title: What would be an ideal future Input Device?
 tags:
   - thoughts

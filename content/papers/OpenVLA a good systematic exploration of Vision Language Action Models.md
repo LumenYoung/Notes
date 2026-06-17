@@ -5,7 +5,6 @@ tags:
   - openvla
   - vla
 date: "2024-11-04"
-published: "2024-11-04"
 modified: "2024-11-17"
 title: OpenVLA, a good systematic exploration of Vision Language Action Models
 ---

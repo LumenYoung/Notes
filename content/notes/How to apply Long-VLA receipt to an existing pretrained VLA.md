@@ -1,6 +1,5 @@
 ---
 date: 2025-10-15
-published: 2025-10-15
 title: "How to apply Long-VLA training receipt to a pretrained VLA?"
 tags:
  - vla

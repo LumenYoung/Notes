@@ -7,7 +7,6 @@ tags:
   - eai
   - phyiscalintelligence
 date: "2024-11-02"
-published: "2024-11-02"
 modified: "2024-11-15"
 title: π0 from Phyiscal Intelligence
 ---

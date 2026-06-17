@@ -1,7 +1,6 @@
 ---
 tags: ["debug", "silverbullet", "infra"]
 date: 2026-03-05
-published: 2026-03-05
 title: "Debugging Silverbullet not Loading - How to peel off the onion of cache"
 ---
 

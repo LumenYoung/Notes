@@ -1,7 +1,6 @@
 ---
 aliases: []
 date: 2025-12-25
-published: 2025-12-25
 tags:
   - math
 title: "Revisit linear algebra: what make Eigenvector special?"

@@ -4,7 +4,6 @@ aliases: []
 tags: []
 category: 中文
 date: "2024-01-10"
-published: "2024-01-10"
 modified: "2024-11-15"
 title: Quoting 赵越胜
 updated: 2024-01-10 00:22:15

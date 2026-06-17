@@ -1,7 +1,6 @@
 ---
 aliases: []
 date: 2025-06-30
-published: 2025-06-30
 tags: ["me","self-reflection"]
 title: "Random Thoughts - 讨论最近失控的生活"
 ---

@@ -3,7 +3,6 @@ citation_key: " StrFloPo25"
 aliases:
   - " StrFloPo25"
 date: 2025-10-23
-published: 2025-10-23
 zotero_key: KVXJME46
 item_type: preprint
 title: "Streaming Flow Policy: Simplifying diffusion/flow-matching policies by treating action trajectories as flow trajectories"

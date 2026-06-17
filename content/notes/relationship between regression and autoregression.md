@@ -1,6 +1,5 @@
 ---
 date: 2025-10-22
-published: 2025-10-22
 tags:
   - thoughts
   - regression

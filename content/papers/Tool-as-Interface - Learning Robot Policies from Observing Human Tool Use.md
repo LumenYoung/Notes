@@ -2,7 +2,6 @@
 citation_key: " TooLeaRo25"
 aliases: [' TooLeaRo25']
 date: "2025-10-08"
-published: "2025-10-08"
 zotero_key: "5U46R84K"
 item_type: "preprint"
 title: "Tool-as-Interface: Learning Robot Policies from Observing Human Tool Use"

@@ -4,7 +4,6 @@ aliases:
   - " LonUnlLo25"
   - longvla
 date: 2025-10-23
-published: 2025-10-23
 zotero_key: ETTSM55I
 item_type: preprint
 title: "Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation"

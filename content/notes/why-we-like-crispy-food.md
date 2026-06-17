@@ -1,7 +1,6 @@
 ---
 aliases: [] 
 date: 2025-11-02
-published: 2025-11-02
 tags: ["life", "evolutionary-psychology"]
 title: "为什么我们会喜欢吃脆的东西？"
 ---

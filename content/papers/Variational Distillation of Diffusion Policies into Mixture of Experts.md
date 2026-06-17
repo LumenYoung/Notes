@@ -2,7 +2,6 @@
 citation_key: " VarDisDi"
 aliases: [' VarDisDi', "VDD"]
 date: "2025-08-07"
-published: "2025-08-07"
 zotero_key: "JQQZJE74"
 item_type: "journalArticle"
 title: "Variational Distillation of Diffusion Policies into Mixture of Experts"

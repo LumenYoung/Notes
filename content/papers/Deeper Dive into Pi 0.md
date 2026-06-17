@@ -7,7 +7,6 @@ tags:
   - eai
   - phyiscalintelligence
 date: "2024-11-04"
-published: "2024-11-04"
 modified: "2024-11-15"
 title: Deeper Dive into π0
 ---

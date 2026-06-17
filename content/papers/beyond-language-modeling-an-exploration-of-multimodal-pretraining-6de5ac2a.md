@@ -2,7 +2,6 @@
 aliases:
   - "Beyond Language Modeling: An Exploration of Multimodal Pretraining"
 date: "2026-03-17"
-published: "2026-03-17"
 paper_publish_date: "2026-03-03"
 item_type: "paper"
 title: "Beyond Language Modeling: An Exploration of Multimodal Pretraining"

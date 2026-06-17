@@ -1,7 +1,6 @@
 ---
 aliases: [] 
 date: 2025-08-11
-published: 2025-08-11
 tags: [typst]
 title: "Tryout Typst"
 ---

@@ -2,7 +2,6 @@
 aliases: ["三点思考法"] 
 title: "A Small Hack to Use Working Memory"
 date: 2025-06-05
-published: 2025-06-05
 tags: ["trick", "cognitive-psychology"]
 ---
 我一直很苦恼的一件事情就是自己的「工作记忆」太小了。把思考本身比作画布，因为工作记忆小，我的画布上面能够存放的东西很少，经常是一件事情想到一半就忘掉了前面的点。而遗忘是长线思考时很让人焦虑的点，所以我更习惯通过笔记来思考 — 迅速的将略入脑海的点 dump 到「外部记忆」里面，让自己不需要担心记忆。而由于「外部记忆」让我不需要刻意的 memorizing，思考本身就变的更多聚焦在思考本身而不是 maintain working memory 了。

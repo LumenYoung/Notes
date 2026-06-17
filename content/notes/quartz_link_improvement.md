@@ -1,7 +1,6 @@
 ---
 aliases: [quartz link improve] 
 date: 2025-08-13
-published: 2025-08-13
 tags: [note-taking, quartz, silverbullet]
 title: Improve the Note Publishing
 ---

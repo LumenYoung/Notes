@@ -1,7 +1,6 @@
 ---
 aliases: [] 
 date: 2026-02-09
-published: 2026-02-09
 tags: ["software", "note-taking"]
 title: "How to choose your personal knowledge management system?"
 ---

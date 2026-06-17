@@ -2,7 +2,6 @@
 citation_key: " Traleain23"
 aliases: [' Traleain23']
 date: "2025-10-26"
-published: "2025-10-26"
 zotero_key: "CMK8XQSZ"
 item_type: "preprint"
 title: "Transformers learn in-context by gradient descent"
