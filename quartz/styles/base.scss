@@ -235,6 +235,10 @@ a {
       flex-direction: column;
       min-height: 0;
 
+      @media all and ($desktop) {
+        display: none;
+      }
+
       & .explorer {
         min-height: 0;
       }

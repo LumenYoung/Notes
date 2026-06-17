@@ -1,0 +1,22 @@
+{
+  "name": "link-prefix-compat",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./index.ts",
+  "scripts": {
+    "build": "echo local plugin uses tsx runtime"
+  },
+  "quartz": {
+    "name": "link-prefix-compat",
+    "displayName": "Link Prefix Compatibility",
+    "description": "Strips Silverbullet-only root prefixes from internal links at build time.",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "defaultOrder": 25,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "prefix": "Publish"
+    }
+  }
+}

@@ -287,6 +287,12 @@
       "resolved": "./plugins/homepage-sections",
       "commit": "local",
       "installedAt": "2026-06-17T00:00:00.000Z"
+    },
+    "link-prefix-compat": {
+      "source": "./plugins/link-prefix-compat",
+      "resolved": "./plugins/link-prefix-compat",
+      "commit": "local",
+      "installedAt": "2026-06-17T22:30:59.995Z"
     }
   }
 }

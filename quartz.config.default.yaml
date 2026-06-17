@@ -66,6 +66,11 @@ plugins:
         dark: github-dark
       keepBackground: false
     order: 20
+  - source: ./plugins/link-prefix-compat
+    enabled: true
+    options:
+      prefix: Publish
+    order: 25
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
