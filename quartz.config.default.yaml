@@ -8,6 +8,7 @@ configuration:
     provider: google
     tagId: G-9Z03XJTGY3
   locale: en-US
+  defaultDateType: published
   baseUrl: www.lumeny.io
   ignorePatterns:
     - private
@@ -207,6 +208,7 @@ plugins:
     options:
       limit: 5
       showTags: true
+      hideFolderPages: true
     layout:
       position: afterBody
       priority: 20
