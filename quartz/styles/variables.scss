@@ -9,10 +9,7 @@
  */
 $breakpoints: (
   mobile: 800px,
-  // Keep the v5 right sidebar in its own column on normal laptop widths.
-  // Quartz collapses the right sidebar below the content below this breakpoint;
-  // 1200px made the graph/ToC look appended to the middle pane too often.
-  desktop: 1000px,
+  desktop: 1200px,
 );
 
 $mobile: "(max-width: #{map.get($breakpoints, mobile)})";
@@ -20,7 +17,7 @@ $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.ge
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
-$sidePanelWidth: 280px; // compact sidebars keep the center readable at the lower desktop breakpoint
+$sidePanelWidth: 320px; //380px;
 $topSpacing: 6rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;

@@ -232,6 +232,7 @@ plugins:
     layout:
       position: afterBody
       priority: 20
+      condition: not-index
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
