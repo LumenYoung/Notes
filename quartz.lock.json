@@ -37,6 +37,12 @@
       "commit": "9f2f0c60cd1421f9310e6c10cee729b2415eed47",
       "installedAt": "2026-04-27T19:44:27.964Z"
     },
+    "category-overview": {
+      "source": "./plugins/category-overview",
+      "resolved": "./plugins/category-overview",
+      "commit": "local",
+      "installedAt": "2026-06-17T21:04:14.264Z"
+    },
     "citations": {
       "source": "github:quartz-community/citations",
       "resolved": "https://github.com/quartz-community/citations.git",
@@ -90,6 +96,12 @@
       "resolved": "https://github.com/quartz-community/darkmode.git",
       "commit": "114237db23a7ef566d96b5d19a8e3a69a13e1789",
       "installedAt": "2026-04-27T19:44:27.780Z"
+    },
+    "date-frontmatter-compat": {
+      "source": "./plugins/date-frontmatter-compat",
+      "resolved": "./plugins/date-frontmatter-compat",
+      "commit": "local",
+      "installedAt": "2026-06-17T21:05:59.645Z"
     },
     "description": {
       "source": "github:quartz-community/description",

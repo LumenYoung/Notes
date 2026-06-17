@@ -1,6 +1,5 @@
 import { QuartzEmitterPlugin, QuartzPageTypePluginInstance, TreeTransform } from "../types"
 import { QuartzComponent, QuartzComponentProps } from "../../components/types"
-import LinksConstructor from "../../components/Links"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { FilePath, FullSlug, pathToRoot } from "../../util/path"
@@ -32,11 +31,7 @@ function resolveLayout(
     beforeBody: overrides.beforeBody ?? sharedDefaults.beforeBody ?? [],
     pageBody: pageType.body(undefined),
     afterBody: overrides.afterBody ?? sharedDefaults.afterBody ?? [],
-    left: [
-      ...left.slice(0, 3),
-      LinksConstructor(),
-      ...left.slice(3),
-    ],
+    left,
     right: overrides.right ?? sharedDefaults.right ?? [],
     footer: overrides.footer ?? sharedDefaults.footer!,
     frame,

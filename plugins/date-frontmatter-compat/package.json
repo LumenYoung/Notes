@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "type": "module",
   "main": "./index.ts",
+  "scripts": {
+    "build": "echo local plugin uses tsx runtime"
+  },
   "quartz": {
     "name": "date-frontmatter-compat",
     "displayName": "Date Frontmatter Compatibility",
@@ -16,8 +19,5 @@
       "sourceField": "date",
       "targetField": "published"
     }
-  },
-  "dependencies": {
-    "@quartz-community/types": "github:quartz-community/types"
   }
 }

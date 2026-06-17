@@ -943,9 +943,17 @@ export async function handlePluginInstallUnified({
 
     if (entry.commit === "local") {
       try {
+        const resolvedLocalPath = path.isAbsolute(entry.resolved)
+          ? entry.resolved
+          : path.resolve(entry.resolved)
+
         if (fs.existsSync(pluginDir)) {
           const stat = fs.lstatSync(pluginDir)
-          if (stat.isSymbolicLink() && fs.readlinkSync(pluginDir) === entry.resolved) {
+          if (
+            stat.isSymbolicLink() &&
+            fs.existsSync(pluginDir) &&
+            fs.realpathSync(pluginDir) === fs.realpathSync(resolvedLocalPath)
+          ) {
             console.log(styleText("gray", `  ✓ ${name} (local) already linked`))
             installed++
             continue
@@ -953,13 +961,13 @@ export async function handlePluginInstallUnified({
           if (stat.isSymbolicLink()) fs.unlinkSync(pluginDir)
           else fs.rmSync(pluginDir, { recursive: true })
         }
-        if (!fs.existsSync(entry.resolved)) {
+        if (!fs.existsSync(resolvedLocalPath)) {
           console.log(styleText("red", `  ✗ ${name}: local path missing: ${entry.resolved}`))
           failed++
           continue
         }
         fs.mkdirSync(path.dirname(pluginDir), { recursive: true })
-        fs.symlinkSync(entry.resolved, pluginDir, "dir")
+        fs.symlinkSync(resolvedLocalPath, pluginDir, "dir")
         console.log(styleText("green", `  ✓ ${name} (local) linked`))
         pluginsToBuild.push({ name, pluginDir })
         installed++
