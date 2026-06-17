@@ -235,7 +235,7 @@ a {
       flex-direction: column;
       min-height: 0;
 
-      @media all and ($desktop) {
+      @media all and ($tablet), all and ($desktop) {
         display: none;
       }
 
