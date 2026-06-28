@@ -1,3 +1,31 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Keep long Explorer file/folder names inside their rows so they cannot
+// leak out of the off-canvas mobile explorer panel.
+.explorer-content .tree-item-self {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.explorer-content .nav-file-title {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.explorer-content .folder-container > div,
+.explorer-content .folder-button {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.explorer-content .folder-title {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
