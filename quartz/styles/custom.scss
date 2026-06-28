@@ -1,11 +1,3 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
-
-// Experiment: clip mobile left-sidebar overflow so closed off-canvas Explorer
-// content cannot peek into the page.
-@media all and ($mobile) {
-  .page > #quartz-body .sidebar.left {
-    overflow: hidden;
-  }
-}
