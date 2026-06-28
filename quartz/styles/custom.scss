@@ -1,3 +1,12 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Experiment: clip the mobile left sidebar only while Explorer is collapsed,
+// so closed off-canvas content cannot peek out but the opened panel can still
+// extend across the viewport.
+@media all and ($mobile) {
+  .page > #quartz-body .sidebar.left:has(.explorer.collapsed) {
+    overflow: hidden;
+  }
+}
