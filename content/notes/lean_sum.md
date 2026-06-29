@@ -27,18 +27,29 @@ def distribute (x : α × (β ⊕ γ)) : (α × β) ⊕ (α × γ) :=
 #eval distribute ("1", (Sum.inl 8 : Nat ⊕ Float))
 ```
 
-哪怕是写出来了这个解，我其实也不是特别理解。其实最核心的点是，`Sum.inr` 和 `Sum.inl` 并不是运算符，而是 `Sum` type 的两个 constructor。
+哪怕是写出来了这个解，我其实也不是特别理解。最让我困惑的是：`Sum.inl` 和 `Sum.inr` 在代码里出现了两次，但它们看起来好像在做两件不同的事情。
 
-1. 在 match 的前半部分：
-   它是一个 pattern matching 的符号，用来表示当 branch 提供进来的 pair 中，第二部分是右侧指示还是左侧指示，从而实现分段。
+1. 在 match 的前半部分（条件部分）：
 
-2. 在 return 的返回侧：
-   这里的返回值同样让人感到奇怪。它的 denote 更多是因为在题设中，我们想要分解出来的其实是要么为 α × β（即 α 和 β 的 pair），或者是 α × γ 的 pair。
-   但对于 Lean 来说，如果你不用 `Sum.inr` 或 `Sum.inl` 去 denote 它，它便不知道这里返回的究竟是哪一个 branch。
+   ```lean
+   | (a, Sum.inl b) => ...
+   | (a, Sum.inr c) => ...
+   ```
 
-因此，`Sum.inr` 在 return 这一侧确实起到了告诉 Lean 这里具体是哪一个 branch 的作用。但更准确地说，它并不只是一个 type hint，而是在构造一个 sum type 的值。
+   这里的 `Sum.inl` 和 `Sum.inr` 出现在 pattern 里。它们的作用是把传进来的 `β ⊕ γ` 拆开：如果这个值是左侧分支，就进入 `Sum.inl b` 这一支；如果是右侧分支，就进入 `Sum.inr c` 这一支。
 
-更加严谨地讲，这里 `Sum.inr` 是一个 constructor。它将我们 `a` 和 `c` 的这个 pair 包装成了 constructor 的一个右侧分支，从而构造出一个类型为 `(α × β) ⊕ (α × γ)` 的值。
+2. 在 match 每个分支的后半部分（返回部分）：
+
+   ```lean
+   => Sum.inl (a, b)
+   => Sum.inr (a, c)
+   ```
+
+   这里一开始让我非常困惑。我原本以为 `Sum.inr (a, c)` 是在对 `(a, c)` 这个 pair 做某种操作，所以就会觉得很奇怪：为什么输入里是右侧分支，输出就一定也要用右侧分支？这里的“左”和“右”到底是在算什么？
+
+后来我才意识到，返回侧的 `Sum.inl` / `Sum.inr` 不是在对 pair 做计算，而是在说明返回值属于 sum type 的哪一个分支，类似于一个 type hint。因为返回类型是 `(α × β) ⊕ (α × γ)`，所以 Lean 必须知道我们返回的是左侧的 `(α × β)`，还是右侧的 `(α × γ)`。
+
+再进一步说，它也不只是一个 type hint。更准确地讲，`Sum.inl` 和 `Sum.inr` 是 `Sum` type 的 constructor。也就是说，`Sum.inr (a, c)` 是把 `(a, c)` 包装进 sum type 的右侧分支里，从而构造出一个类型为 `(α × β) ⊕ (α × γ)` 的值。
 
 ## 为什么 Sum type 对应加法？
 
