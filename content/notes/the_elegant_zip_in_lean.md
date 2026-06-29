@@ -2,7 +2,7 @@
 aliases: [] 
 date: 2026-06-28
 tags: [lean, functional-programmming, learning]
-title: "appreciate writing zip in lean"
+title: "Appreciate Writing zip in Lean"
 ---
 最近在用 lean 学 functional programming 。
 
