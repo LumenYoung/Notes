@@ -1,6 +1,7 @@
 ---
 date: 2026-07-29
 tags: ['companies', "oc",]
+title: "Edge AI SoC of D-Robotics"
 ---
 
 ## D-Robotics Background
