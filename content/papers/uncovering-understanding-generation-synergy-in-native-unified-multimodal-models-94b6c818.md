@@ -76,7 +76,7 @@ GEN-V      → same scratch-trained visual branch
 
 这里将 branch 称为「分支」或「参数路径」只是便于理解；严格说，它不是两座彼此独立运行的 tower。原始 MoT 对每个 modality 使用专属的 Q/K/V/O projection, FFN 和 LayerNorm，再在交错序列上执行一次 global self-attention；本文也明确说明两个 branch 保留 global attention。就本文的 modality-decoupled 路由而言，text 使用预训练 LLM branch，clean understanding token `UND-V` 与 noisy generation token `GEN-V` 都使用同一个从零训练的 visual branch。
 
-在该设置下，joint training 相对 `GEN-only` 明确提升 generation：GenEval2 从 57.55 提升到 63.47，DPG、HPSv3 和 Aesthetic 也都提高。作者还以 5,000 个 COCO 图文对计算 text feature 与 generative visual feature 的 layer-wise linear CKA，发现 joint model 一致高于 `GEN-only`，据此认为 understanding supervision 改善了 generation side 的 vision-language alignment。
+在该设置下，joint training 相对 `GEN-only` 明确提升 generation：GenEval2 从 57.55 提升到 63.47，DPG,HPSv3 和 Aesthetic 也都提高。作者还以 5,000 个 COCO 图文对计算 text feature 与 generative visual feature 的 layer-wise linear CKA，发现 joint model 一致高于 `GEN-only`，据此认为 understanding supervision 改善了 generation side 的 vision-language alignment。
 
 但 joint training 同时让理解下降。一个合理解释是：understanding 既失去了 visual token 直接经过预训练语言参数的优势，又要与 noised generation token 共享同一条 scratch visual computation path。论文也指出，MOT-UND 本身已经低于 Dense-UND，尤其在 General 与 OCR 上，说明强的视觉—语言对齐对理解任务很重要。
 
@@ -111,6 +111,8 @@ clean understanding token 与 noised flow-matching generation token 的计算需
 
 - 主论文：[Wu et al., *Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models*](https://arxiv.org/abs/2609.01607v1)
 - 架构原文：[Liang et al., *Mixture-of-Transformers: A Sparse and Scalable Architecture for Multimodal Foundation Models*](https://arxiv.org/abs/2411.04996)
+- Another MoT: [[Literature_Note/cosmos-3-omnimodal-world-models-for-physical-ai-608a0c61|cosmos3]]
+- Encoder-free example VLM: [[Literature_Note/emu3-5-native-multimodal-models-are-world-learners-2650d40c|Emu3.5: Native Multimodal Models are World Learners]]
 
 原始 MoT 值得继续读。其核心是 token 按 modality 确定性路由到模态专用参数路径：各 token 使用各自的 Q/K/V/O projection, FFN, LayerNorm，但随后在交错序列上做 global self-attention。需要进一步核对本文的 modality-decoupled variant 在实现上复用了原始 MoT 的哪些细节。
 
