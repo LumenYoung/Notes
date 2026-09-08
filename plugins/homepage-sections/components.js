@@ -155,6 +155,10 @@ const HomepageSections = (userOpts) => {
         pages: pagesForSection(allFiles, section, opts.limit),
       }))
       .filter(({ pages }) => pages.length > 0)
+      .sort((a, b) => {
+        const dateDiff = dateMillis(b.pages[0]) - dateMillis(a.pages[0])
+        return dateDiff !== 0 ? dateDiff : a.section.title.localeCompare(b.section.title)
+      })
 
     if (renderedSections.length === 0) return null
 
