@@ -1,11 +1,11 @@
 import { h } from "preact"
 
 const defaultSections = [
+  { title: "Papers", href: "/papers", folder: "papers" },
+  { title: "Posts", href: "/posts", folder: "posts" },
   { title: "Notes", href: "/notes", folder: "notes" },
   { title: "Life", href: "/life", folder: "life" },
-  { title: "Posts", href: "/posts", folder: "posts" },
   { title: "Projects", href: "/projects", folder: "projects" },
-  { title: "Papers", href: "/papers", folder: "papers" },
 ]
 
 const defaultOptions = {
