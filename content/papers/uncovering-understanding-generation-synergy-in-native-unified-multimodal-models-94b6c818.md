@@ -52,7 +52,7 @@ Table 1 中的 `UND/GEN` 不是一个统一模型，而是同一架构下两个�
 - `GEN`：仅用 generation 数据；
 - `UND+GEN`：联合训练。
 
-因此所有结论必须在**同一种架构内**比较，不能将 Dense 与 MOT 的不同表行混为同一因果 baseline。
+所以在同一种架构内比较的结果更有意义一点，不能将 Dense 与 MOT 的不同表行混为同一因果 baseline。
 
 | Architecture           | Training | General |   OCR | V-centric & SI | GenEval2 |   DPG | HPSv3 | Aesthetic |
 | ---------------------- | -------- |--------:|------:|---------------:|---------:|------:|------:|----------:|
@@ -74,7 +74,7 @@ UND-V      → same scratch-trained visual branch
 GEN-V      → same scratch-trained visual branch
 ```
 
-这里将 branch 称为「分支」或「参数路径」只是便于理解；严格说，它不是两座彼此独立运行的 tower。原始 MoT 对每个 modality 使用专属的 Q/K/V/O projection, FFN 和 LayerNorm，再在交错序列上执行一次 global self-attention；本文也明确说明两个 branch 保留 global attention。就本文的 modality-decoupled 路由而言，text 使用预训练 LLM branch，clean understanding token `UND-V` 与 noisy generation token `GEN-V` 都使用同一个从零训练的 visual branch。
+值得提到的是这里说的 branch 在我最开始理解的时候误导了我，让我觉得是一个分开的参数塔；但事实上，它不是两座彼此独立运行的 tower。原始 MoT 对每个 modality 使用专属的 Q/K/V/O projection, FFN 和 LayerNorm，再在交错序列上执行一次 global self-attention；本文也明确说明两个 branch 保留 global attention。就本文的 modality-decoupled 路由而言，text 使用预训练 LLM branch，clean understanding token `UND-V` 与 noisy generation token `GEN-V` 都使用同一个从零训练的 visual branch。
 
 在该设置下，joint training 相对 `GEN-only` 明确提升 generation：GenEval2 从 57.55 提升到 63.47，DPG,HPSv3 和 Aesthetic 也都提高。作者还以 5,000 个 COCO 图文对计算 text feature 与 generative visual feature 的 layer-wise linear CKA，发现 joint model 一致高于 `GEN-only`，据此认为 understanding supervision 改善了 generation side 的 vision-language alignment。
 
