@@ -39,7 +39,7 @@ long horizen solutions:
 
 ### DSRL
 
-![[Publish/papers/Steering Your Diffusion Policy with Latent Space Reinforcement Learning]] 
+![[Publish/notes/Steering Your Diffusion Policy with Latent Space Reinforcement Learning]] 
 
 ### World Modeling
 
@@ -56,7 +56,7 @@ Demo 是真的很酷，围在他的 poster 旁边看了好久这个 toddler 做�
 
 Torque is definitely a must-have for finegrain manipulation, even it is not yet inside the current VLA architectures.
 
-![[Publish/papers/TA-VLA - Elucidating the Design Space of Torque-aware Vision-Language-Action Models| TA-VLA]]
+![[Publish/notes/TA-VLA - Elucidating the Design Space of Torque-aware Vision-Language-Action Models| TA-VLA]]
 
 ### Dyna Robotics Demo
 
@@ -76,8 +76,8 @@ I am a bit not sure about this, so maybe need to check their paper on their clai
 
 ### On learning Energy-Efficient RL Policies  
 
-![[Publish/papers/Non-conflicting Energy Minimization in Reinforcement Learning based Robot Control]]
+![[Publish/notes/Non-conflicting Energy Minimization in Reinforcement Learning based Robot Control]]
 
 ### Tool as Interface
 
-![[Publish/papers/Tool-as-Interface - Learning Robot Policies from Observing Human Tool Use]]
+![[Publish/notes/Tool-as-Interface - Learning Robot Policies from Observing Human Tool Use]]
