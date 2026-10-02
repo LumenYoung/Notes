@@ -7,7 +7,7 @@ title: Lumen Yang's Space
 created: 2025-10-23
 ---
 
-Hi, I'm Lumen. I'm a Robotic Software Engineering working at Agile Robots. Starting from Nov. 2026, I will join sudo.ai for the further research/development of the frontier physical model.
+Hi, I'm Lumen. I'm a Robotic Software Engineering working at Agile Robots. I will join sudo.ai in November 2026 as an Algorithm Research Engineer for the further research and development of the frontier physical model.
 
 ## What is this site?
 
@@ -18,16 +18,14 @@ This small space serves as the primary platform for sharing my public notes. Whe
 3. [Life](/life) for personal reflections and experiences,
 4. [Notes](/notes) for shorter, more frequent updates capturing my daily explorations and discoveries.
 
-Additionally, I also write short notes on the interesting paper I read/or acedemic materials at [Papers](/papers) directory, I hope those knowledge can be systematically accumulated, give me insights into the research fields I'm curious at. 
+Additionally, I also write short notes on the interesting paper I read/or acedemic materials at [Papers](/papers) directory, which helps me to accumulate those knowledge systematically.
 
-This content structure encompasses everything I might want to share without restricting me to only polished or meticulously crafted pieces. In fact, the pursuit of perfection can often drain the joy out of blogging, and I shall definitely avoid perfectionism.
+This content structure encompasses everything I might want to share without restricting me to only polished or meticulously crafted pieces. The pursuit of perfection can often drain the joy out of blogging, and I shall definitely avoid perfectionism.
 
-### Blogging Software
-
-I've experimented with a lot of different setups along the way: first with my WordPress blog (now private), then my [xlog blog](https://xlog.lumeny.io/), and later my [Hexo website](https://writings.lumeny.io/). However, each of these fell short of meeting my expectations in one way or another. Now I find Quartz, which satisfies nearly all my criteria for an ideal blogging tool - a simple editing process and has the added benefit of helping me gradually develop a well-interconnected knowledge base.
-
-Aside from blogging, I use [memos](https://memos.lumeny.io/explore) to collect my scattered thoughts and I sometimes make some of them available publically.
+I have [[Publish/notes/blogging-softwares|tried a lot of different blogging systems]] and [Quartz](https://github.com/jackyzha0/quartz) is the one I settled. This site is also built with Quartz.
 
 ## Attribute
 
-The favicon for this site is from my favorite game, Outer Wilds. Its image of a campfire in the dark universe perfectly captures the spirit of this site. The game's story is about the relentless pursuit of knowledge, and since my name, Lumen, means "light," that little campfire is the ideal symbol for a place dedicated to shedding light on new ideas and thoughts.
+The favicon for this site is from my favorite game, Outer Wilds. Its image of a campfire in the dark universe perfectly captures the spirit of this site. 
+
+Outer Wilds is a story about the relentless pursuit of knowledge, and since my name, Lumen, means "light", that little campfire is the ideal symbol for a place dedicated to my pursue on new knowledge, ideas and thoughts.
