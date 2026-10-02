@@ -7,7 +7,7 @@ title: Lumen Yang's Space
 created: 2025-10-23
 ---
 
-Hi, I'm Lumen. I'm a Robotic Software Engineering working at Agile Robots.
+Hi, I'm Lumen. I'm a Robotic Software Engineering working at Agile Robots. Starting from Nov. 2026, I will join sudo.ai for the further research/development of the frontier physical model.
 
 ## What is this site?
 
